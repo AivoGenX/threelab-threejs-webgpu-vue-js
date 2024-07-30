@@ -50,8 +50,7 @@ window.GET_SCRIPT = (v, t) =>
 
 
 `) +
-  `  <link rel="stylesheet" type="text/css" href="/three-cesium-examples/public/css/threelab.css" /> 
-    <link rel="stylesheet" type="text/css" href="/three-cesium-examples/public/css/threelabUI.css" /> 
+  `  <link rel="stylesheet" type="text/css" href="/three-cesium-examples/public/css/threelab.css" />  
    
     ${
       t === "Cesium.js案例"
