@@ -63,7 +63,7 @@
 https://github.com/z2586300277/three-cesium-examples
 
 
-
+## [国内js模版方式](https://github.com/z2586300277/three-cesium-examples?tab=readme-ov-file)
 
 # [国内镜像](https://gitee.com/giser2017/Web3dExamples)
 # [国外镜像](https://github.com/AivoGenX/Web3dExamples)
