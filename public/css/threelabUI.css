@@ -1,0 +1,288 @@
+html,
+body,
+#app,
+.app-container,
+.threelab-container {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cesium-widget-credits {
+    display: none !important;
+    visibility: hide !important;
+}
+
+/* 按钮样式 */
+.threelab-button {
+    outline: none;
+    border: 0;
+    /* margin: 5px 5px; */
+    cursor: pointer;
+    min-width: 110px;
+    min-height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #14171c;
+    background: linear-gradient(0deg, #1e202a, #0d1013);
+    box-shadow: inset 0 0 0 1px #575757, 0 2px 21px 0 rgb(33 34 39 / 55%);
+    opacity: .96;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+}
+
+.threelab-button:hover {
+    background: #0c0e11;
+    border: 1px solid #14171c;
+    box-shadow: inset 0 0 0 1px #3d3b3b, 0 2px 21px 0 rgb(33 34 39 / 55%);
+    color: #409eff;
+}
+
+.threelab-button-inline-block {
+    display: inline-block;
+}
+
+.threelab-input {
+    word-break: break-all;
+    background: #0c0e11;
+    color: white;
+    margin: 6px 0;
+    height: 28px;
+    line-height: 28px;
+    min-width: 116px;
+    padding: 0px 7px;
+    outline: none;
+    border: 1px solid #14171c;
+    -webkit-box-shadow: inset 0 0 0 1px #3d3b3b, 0 2px 21px 0 rgb(33 34 39 / 55%);
+    box-shadow: inset 0 0 0 1px #3d3b3b, 0 2px 21px 0 rgb(33 34 39 / 55%);
+}
+
+/* 面板 */
+.threelab-panel {
+    position: absolute;
+    opacity: 0.9;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.threelab-left-panel {
+    left: 10px;
+    top: 10px;
+}
+
+.threelab-right-panel {
+    right: 10px;
+    top: 10px;
+    height: 100%;
+}
+
+.threelab-panel-header {
+    height: 38px;
+    background: linear-gradient(0deg, #252935 0%, #2b2e3a 100%);
+    border-radius: 4px 4px 0px 0px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'MicrosoftYaHei';
+    font-weight: 400;
+    color: #dcdcdc;
+    line-height: 38px;
+    min-width: 200px;
+    border: 1px solid #14171c;
+    pointer-events: all;
+}
+
+.threelab-panel-title {
+    padding-left: 10px;
+    border: 1px solid #505050;
+    font-size: 16px;
+}
+
+.threelab-panel-body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: linear-gradient(0deg, #1e202a 0%, #0d1013 100%);
+    border-left: 1px solid #14171c;
+    border-right: 1px solid #14171c;
+    box-shadow: 0px 2px 21px 0px rgb(33 34 39 / 55%);
+    /* border-radius:0px 0px 4px 4px; */
+    max-height: calc(100% - 100px);
+    overflow: auto;
+    pointer-events: all;
+}
+
+.threelab-form-wrapp {
+    padding: 0px;
+    border: 1px solid #505050;
+    border-bottom: 0;
+}
+
+.threelab-form-item {
+    display: flex;
+    margin: 7px 0px;
+    padding: 7px 20px;
+    align-items: center;
+    border-bottom: 1px solid #8181816b;
+    color: #ffffffc9;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+.threelab-form-item label {
+    text-wrap: nowrap;
+}
+
+.threelab-form-item-label {
+    color: #ffffffc9;
+    padding-left: 10px;
+}
+
+.threelab-form-group-label {
+    padding-left: 2px;
+    color: rgba(255, 255, 255, 0.816);
+    background: #3b3b3bc2;
+    line-height: 30px;
+}
+
+.threelab-form-cell{
+    display: flex; 
+    align-items: center;
+}
+.threelab-form-cell:not(:first-child) {
+    margin-left: 10px;
+}
+
+.threelab-form-footer {
+    text-align: center;
+}
+
+.threelab-form-footer {
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.threelab-panel-footer {
+    background: linear-gradient(0deg, #252935 0%, #2b2e3a 100%); 
+    border: 1px solid #14171c;
+    border-top: 0;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.threelab-panel-tail {
+    height: 22px;
+    border: 1px solid #505050;
+    border-top: 0;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+/* 覆盖element plus */
+.el-input-number.is-controls-right .el-input__wrapper {
+    background: #0a0a0a;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid #14171c;
+    box-shadow: inset 0 0 0 1px #3d3b3b, 0 2px 21px 0 rgb(33 34 39 / 55%);
+    height: 24px;
+}
+
+.el-input--small .el-input__inner {
+    color: white;
+}
+
+.el-input-number__increase {
+    border-left: 1px solid #7f8982;
+    background: #424d61;
+    color: #ffffff;
+}
+
+.el-input-number.is-controls-right .el-input-number__decrease {
+    border-left: 1px solid #7f8982;
+    background: #424d61;
+    color: #ffffff;
+}
+
+.el-color-picker__trigger {
+    border: none;
+}
+
+.el-color-dropdown__value .el-input__inner {
+    color: black !important;
+}
+
+.el-checkbox {
+    color: #d7d7d7;
+}
+
+.el-checkbox__inner {
+    border: 1px solid #14171c;
+    box-shadow: inset 0 0 0 1px #3d3b3b, 0 2px 21px 0 rgb(33 34 39 / 55%);
+    background-color: #353030;
+    color: #c0c1c3;
+}
+
+.el-checkbox.el-checkbox--large .el-checkbox__inner {
+    width: 20px;
+    height: 20px;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: #f08533;
+    border-color: #156ec9;
+}
+
+
+.el-checkbox__inner::after {
+    height: 7px;
+    left: 6px;
+    top: 3px;
+    width: 4px;
+}
+
+.el-slider--small {
+    margin-left: 10px;
+    min-width: 126px;
+}
+
+.el-input-number--small {
+    width: 95px;
+}
+
+.el-slider__bar {
+    background-color: #ffa340;
+}
+
+.el-slider__runway {
+    background-color: #4c4d4f;
+}
+
+
+.el-radio__inner { 
+    background-color: #636363; 
+}
+
+::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    /* width: 10px; */
+    width: 3px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    background-color: rgba(26, 56, 143, 0.88);
+    background-image: -webkit-linear-gradient(45deg, rgba(10, 223, 13, 0.992) 10%, rgb(223 2 2 / 100%) 75%)
+}
+
+::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}

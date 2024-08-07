@@ -7,18 +7,25 @@
     <!-- 这里可以添加CSS样式文件 -->
   </head>
   <body>
-    <div id="box"></div>
+     <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
     <script type="module">
       import * as THREE from "three";
       import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-      import * as dat from "dat.gui";
+      import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 
       /* GUI */
 
-      const gui = new dat.GUI();
+      const gui = new GUI();
 
       // Container
-      const box = document.getElementById("box");
+      
 
       // Scene
       const scene = new THREE.Scene();
@@ -30,15 +37,15 @@
 
       /* Tex */
       const dissolveTex = textureLoader.load(
-        "/three-cesium-examples/public/threeExamples/shader/dissolve/dissolveTex.png"
+        "/public/threeExamples/shader/dissolve/dissolveTex.png"
       );
       dissolveTex.colorSpace = THREE.SRGBColorSpace;
       const dissolveRampTex = textureLoader.load(
-        "/three-cesium-examples/public/threeExamples/shader/dissolve/dissolveRamp.png"
+        "/public/threeExamples/shader/dissolve/dissolveRamp.png"
       );
       dissolveRampTex.colorSpace = THREE.SRGBColorSpace;
       const diffuseTex = textureLoader.load(
-        "/three-cesium-examples/public/threeExamples/shader/dissolve/diffuse.png"
+        "/public/threeExamples/shader/dissolve/diffuse.png"
       );
       diffuseTex.colorSpace = THREE.SRGBColorSpace;
 
@@ -159,7 +166,7 @@
       renderer.setSize(sizes.width, sizes.height);
       renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
       renderer.outputColorSpace = THREE.SRGBColorSpace;
-      box.appendChild(renderer.domElement);
+      document.body.appendChild(renderer.domElement);
 
       // Controls
       const controls = new OrbitControls(camera, renderer.domElement);

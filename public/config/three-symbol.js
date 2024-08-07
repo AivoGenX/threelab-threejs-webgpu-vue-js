@@ -8,9 +8,9 @@ export default [
         name: "围栏着色器",
         author: "flowers-10",
         codeUrl:
-          "/three-cesium-examples/public/threeSymbol/shader/fenceShader.html",
+          "/public/threeSymbol/shader/fenceShader.html",
         image:
-          "/three-cesium-examples/public/threeSymbol/shader/fenceShader.jpg",
+          "/public/threeSymbol/shader/fenceShader.jpg",
         meta: {
           title: "围栏着色器",
           keywords: "three.js,围栏着色器",
@@ -28,9 +28,9 @@ export default [
         name: "波浪效果",
         author: "giser2017",
         codeUrl:
-          "/three-cesium-examples/public/threeSymbol/water/waterA.html",
+          "/public/threeSymbol/water/waterA.html",
         image:
-          "/three-cesium-examples/public/threeSymbol/water/waterA.png",
+          "/public/threeSymbol/water/waterA.png",
         meta: {
           title: "水效果",
           keywords: "three.js,水效果",

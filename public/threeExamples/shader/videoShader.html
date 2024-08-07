@@ -7,19 +7,25 @@
     <!-- 这里可以添加CSS样式文件 -->
   </head>
   <body>
-    <div id="box"></div>
+     <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
     <script type="module">
       import * as THREE from "three";
       import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-      import * as dat from "dat.gui";
-
-      const box = document.getElementById("box");
+      import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
+      
 
       const scene = new THREE.Scene();
 
       const camera = new THREE.PerspectiveCamera(
         75,
-        box.clientWidth / box.clientHeight,
+        window.innerWidth / window.innerHeight,
         0.1,
         1000
       );
@@ -28,16 +34,16 @@
 
       const renderer = new THREE.WebGLRenderer();
 
-      renderer.setSize(box.clientWidth, box.clientHeight);
+      renderer.setSize(window.innerWidth, window.innerHeight);
 
-      box.appendChild(renderer.domElement);
+      document.body.appendChild(renderer.domElement);
 
       new OrbitControls(camera, renderer.domElement);
 
       window.onresize = () => {
-        renderer.setSize(box.clientWidth, box.clientHeight);
+        renderer.setSize(window.innerWidth, window.innerHeight);
 
-        camera.aspect = box.clientWidth / box.clientHeight;
+        camera.aspect = window.innerWidth / window.innerHeight;
 
         camera.updateProjectionMatrix();
       };
@@ -74,7 +80,7 @@
           {
             r: {
               type: "v2",
-              value: new THREE.Vector2(box.clientWidth, box.clientHeight),
+              value: new THREE.Vector2(window.innerWidth, window.innerHeight),
             },
             t: {
               type: "f",
@@ -93,9 +99,9 @@
       };
 
       // GUI 切换混合运算类型
-      const GUI = new dat.GUI();
+      const gui = new  GUI();
 
-      GUI.add(
+      gui.add(
         shader.uniforms.calcType,
         "value",
         [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]

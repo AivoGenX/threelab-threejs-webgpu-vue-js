@@ -7,7 +7,14 @@
     <!-- 这里可以添加CSS样式文件 -->
   </head>
   <body>
-    <div id="box"></div>
+     <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
     <script type="module">
       import * as THREE from "three";
       import { OrbitControls } from "three/addons/controls/OrbitControls.js";
@@ -27,7 +34,7 @@
         tAudioData: { value: 0 },
         uStrength: { value: 0 },
       };
-      const box = document.getElementById("box");
+      
 
       const init = () => {
         // Scene
@@ -338,13 +345,13 @@
          * Sizes
          */
         const sizes = {
-          width: box.clientWidth,
-          height: box.clientHeight,
+          width: window.innerWidth,
+          height: window.innerHeight,
         };
         window.addEventListener("resize", () => {
           // Update sizes
-          sizes.width = box.clientWidth;
-          sizes.height = box.clientHeight;
+          sizes.width = window.innerWidth;
+          sizes.height = window.innerHeight;
           // Update camera
           camera.aspect = sizes.width / sizes.height;
 
@@ -375,7 +382,7 @@
         renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
         renderer.setClearColor("#111");
         renderer.shadowMap.enabled = true;
-        box.appendChild(renderer.domElement);
+        document.body.appendChild(renderer.domElement);
         // Controls
         controls = new OrbitControls(camera, renderer.domElement);
         // controls.enableDamping = true;
@@ -416,7 +423,7 @@
         const listener = new THREE.AudioListener();
         const audio = new THREE.Audio(listener);
         const file =
-          "/three-cesium-examples/public/files/audio/Avicii-WeBurn.mp3";
+          "/public/files/audio/Avicii-WeBurn.mp3";
         mediaElement = new Audio(file);
         mediaElement.play();
         audio.setMediaElementSource(mediaElement);
@@ -434,7 +441,7 @@
         playButton.style.right = "140px";
         playButton.style.top = "30px";
         playButton.style.padding = "10px 20px";
-        box.appendChild(playButton);
+        document.body.appendChild(playButton);
         playButton.addEventListener("click", play);
 
         const pauseButton = document.createElement("button");
@@ -443,7 +450,7 @@
         pauseButton.style.right = "30px";
         pauseButton.style.top = "30px";
         pauseButton.style.padding = "10px 20px";
-        box.appendChild(pauseButton);
+        document.body.appendChild(pauseButton);
         pauseButton.addEventListener("click", pause);
       };
 

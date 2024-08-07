@@ -35,8 +35,8 @@
     id: '父级列表唯一id',
     name: '名称',
     author: '作者id',
-    codeUrl: '/three-cesium-examples/public/threeExamples/basic/test.html',
-    image: '/three-cesium-examples/public/threeExamples/basic/test.jpg',
+    codeUrl: '/public/threeExamples/basic/test.html',
+    image: '/public/threeExamples/basic/test.jpg',
     meta: {
         title: '此案例网站标题',
         keywords: '搜索引擎关键字',

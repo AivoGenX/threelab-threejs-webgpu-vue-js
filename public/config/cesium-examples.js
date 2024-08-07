@@ -7,14 +7,316 @@ export default [
                 id: 'defaultLayer',
                 name: '默认图层',
                 author: 'z2586300277',
-                codeUrl: '/three-cesium-examples/public/cesiumExamples/layer/defaultLayer.html',
-                image: '/three-cesium-examples/public/cesiumExamples/layer/defaultLayer.jpg',
+                codeUrl: '/public/cesiumExamples/layer/defaultLayer.js',
+                image: '/public/cesiumExamples/layer/defaultLayer.jpg',
                 meta: {
                     title: '默认图层',
                     keywords: 'cesium.js,默认图层',
                     description: 'cesium默认图层'
                 }
-            }, 
+            },
+            {
+                id: 'coordLayer',
+                name: '坐标参考',
+                author: 'giser2017',
+                codeUrl: '/public/cesiumExamples/layer/coordLayer.js',
+                image: '/public/cesiumExamples/layer/coord.png',
+                meta: {
+                    title: '坐标参考',
+                    keywords: 'cesium.js,坐标参考',
+                    description: '坐标参考'
+                }
+            },
+
+            {
+                id: 'baiduLayer',
+                name: '百度图层',
+                author: 'giser2017',
+                codeUrl: '/public/cesiumExamples/layer/baiduLayer.js',
+                image: '/public/cesiumExamples/layer/baiduLayer.jpg',
+                meta: {
+                    title: '百度图层',
+                    keywords: 'cesium.js,百度图层',
+                    description: 'cesium百度图层'
+                }
+            },
+            {
+                id: 'arcgisLayer',
+                name: 'arcgis图层',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/layer/arcgisLayer.js',
+                image: '/public/cesiumExamples/layer/arcgisLayer.jpg',
+                meta: {
+                    title: 'arcgis图层',
+                    keywords: 'cesium.js,arcgis图层',
+                    description: 'cesium arcgis图层'
+                }
+            },
+            {
+                id: 'gaodeLayer',
+                name: '高德图层',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/layer/gaodeLayer.js',
+                image: '/public/cesiumExamples/layer/gaodeLayer.jpg',
+                meta: {
+                    title: '高德图层',
+                    keywords: 'cesium.js,高德图层',
+                    description: 'cesium 高德图层'
+                }
+            },
+            {
+                id: 'mapfilterLayer',
+                name: '地图滤镜',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/layer/mapfilterLayer.js',
+                image: '/public/cesiumExamples/layer/mapfilterLayer.jpg',
+                meta: {
+                    title: '地图滤镜',
+                    keywords: 'cesium.js,地图滤镜',
+                    description: 'cesium 地图滤镜'
+                }
+            },
+            {
+                id: 'tiandituLayer',
+                name: '天地图',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/layer/tiandituLayer.js',
+                image: '/public/cesiumExamples/layer/tiandituLayer.jpg',
+                meta: {
+                    title: '天地图',
+                    keywords: 'cesium.js,天地图',
+                    description: 'cesium 天地图'
+                }
+            },
+            {
+                id: 'terrainLayer',
+                name: '地形',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/layer/terrainLayer.js',
+                image: '/public/cesiumExamples/layer/terrainLayer.jpg',
+                meta: {
+                    title: '地形',
+                    keywords: 'cesium.js,地形',
+                    description: 'cesium 地形'
+                }
+            }
         ]
-    }, 
+    },
+    {
+        pid: 'offline',
+        name: '离线地图',
+        children: [
+            {
+                id: 'offlineBlue',
+                name: '蓝色',
+                author: 'giser2017',
+                codeUrl: '/public/cesiumExamples/offline/blue.js',
+                image: '/public/cesiumExamples/offline/blue.png',
+                meta: {
+                    title: '蓝色',
+                    keywords: 'cesium.js,蓝色',
+                    description: '蓝色'
+                }
+            }, {
+                id: 'day',
+                name: '夜间',
+                author: 'giser2017',
+                codeUrl: '/public/cesiumExamples/offline/day.js',
+                image: '/public/cesiumExamples/offline/day.png',
+                meta: {
+                    title: '夜间',
+                    keywords: 'cesium.js,夜间',
+                    description: '夜间'
+                }
+            }
+            , {
+                id: 'img',
+                name: '影像',
+                author: 'giser2017',
+                codeUrl: '/public/cesiumExamples/offline/img.js',
+                image: '/public/cesiumExamples/offline/img.png',
+                meta: {
+                    title: '影像',
+                    keywords: 'cesium.js,影像',
+                    description: '影像'
+                }
+            }
+            , {
+                id: 'night',
+                name: '夜间',
+                author: 'giser2017',
+                codeUrl: '/public/cesiumExamples/offline/night.js',
+                image: '/public/cesiumExamples/offline/night.png',
+                meta: {
+                    title: '影像',
+                    keywords: 'cesium.js,影像',
+                    description: '夜间'
+                }
+            },
+            {
+                id: 'gaode',
+                name: '内网高德',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/offline/gaode.js',
+                image: '/public/cesiumExamples/offline/gaode.jpg',
+                meta: {
+                    title: '内网高德',
+                    keywords: 'cesium.js,内网高德',
+                    description: '内网高德'
+                }
+            },
+            {
+                id: 'baiDu',
+                name: '内网百度',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/offline/baidu.js',
+                image: '/public/cesiumExamples/offline/baidu.jpg',
+                meta: {
+                    title: '内网百度',
+                    keywords: 'cesium.js,内网百度',
+                    description: '内网百度'
+                }
+            }
+        ]
+    },
+    {
+        pid: 'basic',
+        name: '基础功能',
+        children: [
+            {
+                id: 'cssElement',
+                name: 'css2D元素',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/cssElement.js',
+                image: '/public/cesiumExamples/basic/cssElement.jpg',
+                meta: {
+                    title: 'css2D元素',
+                    keywords: 'cesium.js,css2D元素',
+                    description: 'cesium css2D元素'
+                }
+            },
+            {
+                id: 'clickEvent',
+                name: '点击事件',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/clickEvent.js',
+                image: '/public/cesiumExamples/basic/clickEvent.jpg',
+                meta: {
+                    title: '点击事件',
+                    keywords: 'cesium.js,点击事件',
+                    description: 'cesium 点击事件'
+                }
+            },
+            {
+                id: 'geojsonFace',
+                name: 'geojson面',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/geojsonFace.js',
+                image: '/public/cesiumExamples/basic/geojsonFace.jpg',
+                meta: {
+                    title: 'geojson面',
+                    keywords: 'cesium.js,geojson面',
+                    description: 'cesium geojson面'
+                }
+            },
+            {
+                id: 'multPoint',
+                name: 'cesium大量点',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/multPoint.js',
+                image: '/public/cesiumExamples/basic/multPoint.jpg',
+                meta: {
+                    title: 'cesium大量点',
+                    keywords: 'cesium.js,cesium大量点',
+                    description: 'cesium cesium大量点'
+                }
+            },
+            {
+                id: 'multFaceLine',
+                name: 'cesium大量面线',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/multFaceLine.js',
+                image: '/public/cesiumExamples/basic/multFaceLine.jpg',
+                meta: {
+                    title: 'cesium大量面线',
+                    keywords: 'cesium.js,cesium大量面线',
+                    description: 'cesium cesium大量面线'
+                }
+            },
+            {
+                id: 'multCurve',
+                name: 'cesium大量曲线',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/multCurve.js',
+                image: '/public/cesiumExamples/basic/multCurve.jpg',
+                meta: {
+                    title: 'cesium大量曲线',
+                    keywords: 'cesium.js,cesium大量曲线',
+                    description: 'cesium cesium大量曲线'
+                }
+            },
+            {
+                id: 'multText',
+                name: 'cesium大量文字',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/multText.js',
+                image: '/public/cesiumExamples/basic/multText.jpg',
+                meta: {
+                    title: 'cesium大量文字',
+                    keywords: 'cesium.js,cesium大量文字',
+                    description: 'cesium cesium大量文字'
+                }
+            },
+            {
+                id: 'loadModel',
+                name: '加载模型',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/loadModel.js',
+                image: '/public/cesiumExamples/basic/loadModel.jpg',
+                meta: {
+                    title: '加载模型',
+                    keywords: 'cesium.js,加载模型',
+                    description: 'cesium 加载模型'
+                }
+            },
+            {
+                id: 'flyLine',
+                name: '流动飞线运动',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/flyLine.js',
+                image: '/public/cesiumExamples/basic/flyLine.jpg',
+                meta: {
+                    title: '流动飞线运动',
+                    keywords: 'cesium.js,流动飞线运动',
+                    description: 'cesium 流动飞线运动'
+                }
+            },
+        ]
+    },
+    {
+        pid: 'expand',
+        name: '扩展功能',
+        children: [
+            {
+                id: 'cesiumAndThree',
+                name: 'cesium融合three',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/expand/cesiumAndThree.js',
+                image: '/public/cesiumExamples/expand/cesiumAndThree.jpg',
+            }
+        ]
+    },
+    {
+        pid: 'tools',
+        name: '工具',
+        children: [
+            {
+                id: 'mapDataConvert',
+                name: '地图转换工具',
+                author: 'giser2017',
+                openUrl: 'https://threelab.cn/dgis/',
+                image: '/public/cesiumExamples/tools/mapDataConvert.jpg',
+            }
+        ]
+    }
 ]

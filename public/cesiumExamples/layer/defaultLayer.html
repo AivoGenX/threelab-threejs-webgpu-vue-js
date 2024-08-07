@@ -9,7 +9,14 @@
 </head>
 
 <body>
-    <div id="box"></div>
+     <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
     <script type="module">
         import * as Cesium from 'cesium'
 

@@ -8,7 +8,7 @@ export default defineConfig({
     {
       transformIndexHtml: html => html.replace(
         /<head>/,
-        `<head><script type="module" src="/three-cesium-examples/public/config/config.js"></script>`
+        `<head><script type="module" src="/public/config/config.js"></script>`
       )
     },
     
@@ -48,7 +48,7 @@ export default defineConfig({
 
   },
 
-  base: '/three-cesium-examples/public',
+  base: '/public',
 
   server: {
 

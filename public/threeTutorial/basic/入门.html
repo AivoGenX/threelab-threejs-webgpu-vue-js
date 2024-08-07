@@ -6,16 +6,23 @@
     <title>入门</title>
     <!-- 这里可以添加CSS样式文件 -->
   </head>
-  <body>
-    <div id="box"></div>
+  <body> 
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
+
     <script type="module">
       import * as THREE from "three";
       // 场景 + 相机-- > 渲染器 - >成果
 
       // 场景 = （网格模型(几何体 + 材质) + 位置） + （网格模型(几何体 + 材质) + 位置）
       // 相机 = 相机位置 + 相机观察位置
-
-      const box = document.getElementById("box");
+ 
 
       const scene = new THREE.Scene(); // 创建场景
       const geometry = new THREE.BoxGeometry(100, 100, 100); //几何体
@@ -29,9 +36,9 @@
       camera.lookAt(0, 10, 0); //相机观察位置
 
       const renderer = new THREE.WebGLRenderer(); // 创建渲染器
-      renderer.setSize(box.clientWidth, box.clientHeight);
+      renderer.setSize(window.innerWidth, window.innerHeight);
       renderer.render(scene, camera); //执行渲染
-      box.appendChild(renderer.domElement);
+      document.body.appendChild(renderer.domElement);
     </script>
   </body>
 </html>

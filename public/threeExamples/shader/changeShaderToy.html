@@ -7,19 +7,26 @@
     <!-- 这里可以添加CSS样式文件 -->
   </head>
   <body>
-    <div id="box"></div>
+     <script type="importmap">
+      {
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js",
+          "three/addons/": "https://threejs.org/examples/jsm/"
+        }
+      }
+    </script>
     <script type="module">
       import * as THREE from "three";
       import { OrbitControls } from "three/addons/controls/OrbitControls.js";
-      import * as dat from "dat.gui";
+      import { GUI} from 'three/addons/libs/lil-gui.module.min.js';
 
-      const DOM = document.getElementById("box");
+      
 
       const scene = new THREE.Scene();
 
       const camera = new THREE.PerspectiveCamera(
         75,
-        DOM.clientWidth / DOM.clientHeight,
+        window.innerWidth/window.innerHeight,
         0.1,
         1000
       );
@@ -32,16 +39,16 @@
         logarithmicDepthBuffer: true,
       });
 
-      renderer.setSize(DOM.clientWidth, DOM.clientHeight);
+      renderer.setSize(window.innerWidth,window.innerHeight);
 
-      DOM.appendChild(renderer.domElement);
+      document.body.appendChild(renderer.domElement);
 
       new OrbitControls(camera, renderer.domElement);
 
       window.onresize = () => {
-        renderer.setSize(DOM.clientWidth, DOM.clientHeight);
+        renderer.setSize(window.innerWidth,window.innerHeight);
 
-        camera.aspect = DOM.clientWidth / DOM.clientHeight;
+        camera.aspect = window.innerWidth/window.innerHeight;
 
         camera.updateProjectionMatrix();
       };
@@ -55,14 +62,14 @@
 
       scene.add(mesh);
 
-      // GUI 对象
-      const GUI = new dat.GUI();
+      // gui 对象
+      const gui = new GUI();
 
       const fileList = new Array(6)
         .fill()
-        .map((_, i) => `/three-cesium-examples/public/files/glsl/${i}.frag`);
+        .map((_, i) => `/public/files/glsl/${i}.frag`);
 
-      GUI.add({ url: fileList[0] }, "url", fileList).onChange((url) =>
+      gui.add({ url: fileList[0] }, "url", fileList).onChange((url) =>
         changeShader(url)
       );
 
@@ -91,7 +98,7 @@
             {
               u_resolution: {
                 type: "v2",
-                value: new THREE.Vector2(DOM.clientWidth, DOM.clientHeight),
+                value: new THREE.Vector2(window.innerWidth,window.innerHeight),
               },
 
               u_time: {
