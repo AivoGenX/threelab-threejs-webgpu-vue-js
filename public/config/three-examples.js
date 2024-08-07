@@ -1,4 +1,5 @@
 export default [
+
   {
     pid: "shader",
     name: "着色器",
@@ -17,7 +18,20 @@ export default [
           description: "使用three.js模型混合着色器",
         },
       },
-
+      {
+        pid: "fenceShader",
+        name: "围栏着色器",
+        author: "flowers-10",
+        codeUrl:
+          "/public/threeSymbol/shader/fenceShader.html",
+        image:
+          "/public/threeSymbol/shader/fenceShader.jpg",
+        meta: {
+          title: "围栏着色器",
+          keywords: "three.js,围栏着色器",
+          description: "使用three.js围栏着色器",
+        },
+      },
       {
         id: "cityMoveLight",
         name: "智慧城市扫光",
@@ -116,6 +130,48 @@ export default [
           description: "切换ShaderToy",
         },
       },
+      {
+        id: "imageShake",
+        name: "图片抖动",
+        author: "z2586300277",
+        codeUrl: "/public/threeExamples/shader/imageShake.html",
+        image: "/public/threeExamples/shader/imageShake.jpg"
+      }
+    ],
+  },
+  {
+    pid: "water",
+    name: "水效果",
+    children: [
+      {
+        pid: "giser2017",
+        name: "波浪效果",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeSymbol/water/waterA.html",
+        image:
+          "/public/threeSymbol/water/waterA.png",
+        meta: {
+          title: "水效果",
+          keywords: "three.js,水效果",
+          description: "使用three水效果",
+        },
+      },
+    ]
+  },
+  {
+    pid: "ShiningGlowing",
+    name: "闪耀发光",
+    children: [
+      {
+        id: "fireball",
+        name: "火球效果",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeExamples/ShiningGlowing/fireball.html",
+        image:
+          "/public/threeExamples/ShiningGlowing/fireball.png",
+      },
     ],
   },
   {
@@ -198,8 +254,29 @@ export default [
           description: "使用three.js粒子聚散",
         },
       },
+      {
+        id: "RandomParticle",
+        name: "随机粒子效果",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeExamples/particle/RandomParticle.html",
+        image:
+          "/public/threeExamples/particle/RandomParticle.png",
+      },
+      {
+        id: " PlanetParticle",
+        name: "粒子效果的行星",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeExamples/particle/PlanetParticle.html",
+        image:
+          "/public/threeExamples/particle/PlanetParticle.png",
+      },
     ],
   },
+
+
+
   {
     pid: "expand",
     name: "扩展功能",
@@ -264,6 +341,26 @@ export default [
           description: "使用three.js自定义遮罩通道",
         },
       },
+      {
+        id: "uvTransformation",
+        name: "UV图像变换",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeExamples/effectComposer/uvTransformation.html",
+        image:
+          "/public/threeExamples/effectComposer/uvTransformation.png",
+      },
+      {
+        id: "EdgeBlurringEffect",
+        name: "边缘模糊效果",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeExamples/effectComposer/EdgeBlurringEffect.html",
+        image:
+          "/public/threeExamples/effectComposer/EdgeBlurringEffect.png",
+      },
+
+
     ],
   },
   {
