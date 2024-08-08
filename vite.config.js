@@ -1,42 +1,35 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-
   plugins: [
-
     {
-      transformIndexHtml: html => html.replace(
-        /<head>/,
-        `<head><script type="module" src="/public/config/config.js"></script>`
-      )
+      transformIndexHtml: (html) =>
+        html.replace(
+          /<head>/,
+          `<head><script type="module" src="/public/config/config.js"></script>`
+        ),
     },
-    
-    vue()
 
+    vue(),
   ],
 
   define: {
-
     __SITE_URLS__: {
+      gitee: "https://gitee.com/giser2017/three-cesium-examples",
 
-      gitee: 'https://gitee.com/giser2017/three-cesium-examples',
+      github: "https://github.com/z2586300277/three-cesium-examples",
 
-      github: 'https://github.com/z2586300277/three-cesium-examples',
-
-      web: "http://threelab.cn/"
-
+      web: "http://threelab.cn/",
     },
-
   },
 
   build: {
-
-    outDir: 'public',
+    outDir: "public",
 
     emptyOutDir: false, // 不删除输出目录中的旧资源
 
-    target: 'es2015',
+    target: "es2015",
 
     chunkSizeWarningLimit: 999999, // 最大打包体积
 
@@ -45,19 +38,27 @@ export default defineConfig({
     copyPublicDir: false,
 
     cssCodeSplit: false, // css代码分割
-
   },
 
-  base: '/public',
+  base: "/public",
 
   server: {
-
     port: 3344,
 
     open: true,
 
-    host: '0.0.0.0'
-
-  }
-
-})
+    host: "0.0.0.0",
+    proxy: {
+      "/threejs/": {
+        target: "https://threelab.cn",
+        changeOrigin: true,
+        // rewrite: (path) => path.replace(/^\/threejs/, ""),
+      },
+      "/examples/jsm/": {
+        target: "https://threeab.cn/threejs/",
+        changeOrigin: true,
+        // rewrite: (path) => path.replace(/^\/threejs\/examples\/jsm/, ""),
+      },
+    },
+  },
+});
