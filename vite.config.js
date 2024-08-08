@@ -16,7 +16,7 @@ export default defineConfig({
 
   define: {
     __SITE_URLS__: {
-      gitee: "https://gitee.com/giser2017/three-cesium-examples",
+      gitee: "https://gitee.com/giser2017/Web3dExamples",
 
       github: "https://github.com/z2586300277/three-cesium-examples",
 

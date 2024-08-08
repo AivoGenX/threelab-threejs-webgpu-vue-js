@@ -20,7 +20,7 @@ export default [
                 name: '坐标参考',
                 author: 'giser2017',
                 codeUrl: '/public/cesiumExamples/layer/coordLayer.js',
-                image: '/public/cesiumExamples/layer/coord.png',
+                image: '/public/cesiumExamples/layer/coord.jpg',
                 meta: {
                     title: '坐标参考',
                     keywords: 'cesium.js,坐标参考',
@@ -111,7 +111,7 @@ export default [
                 name: '蓝色',
                 author: 'giser2017',
                 codeUrl: '/public/cesiumExamples/offline/blue.js',
-                image: '/public/cesiumExamples/offline/blue.png',
+                image: '/public/cesiumExamples/offline/blue.jpg',
                 meta: {
                     title: '蓝色',
                     keywords: 'cesium.js,蓝色',
@@ -122,7 +122,7 @@ export default [
                 name: '夜间',
                 author: 'giser2017',
                 codeUrl: '/public/cesiumExamples/offline/day.js',
-                image: '/public/cesiumExamples/offline/day.png',
+                image: '/public/cesiumExamples/offline/day.jpg',
                 meta: {
                     title: '夜间',
                     keywords: 'cesium.js,夜间',
@@ -134,7 +134,7 @@ export default [
                 name: '影像',
                 author: 'giser2017',
                 codeUrl: '/public/cesiumExamples/offline/img.js',
-                image: '/public/cesiumExamples/offline/img.png',
+                image: '/public/cesiumExamples/offline/img.jpg',
                 meta: {
                     title: '影像',
                     keywords: 'cesium.js,影像',
@@ -146,7 +146,7 @@ export default [
                 name: '夜间',
                 author: 'giser2017',
                 codeUrl: '/public/cesiumExamples/offline/night.js',
-                image: '/public/cesiumExamples/offline/night.png',
+                image: '/public/cesiumExamples/offline/night.jpg',
                 meta: {
                     title: '影像',
                     keywords: 'cesium.js,影像',
@@ -183,6 +183,25 @@ export default [
         pid: 'basic',
         name: '基础功能',
         children: [
+            {
+                id: 'autoRotate',
+                name: '自动旋转',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/autoRotate.js',
+                image: '/public/cesiumExamples/layer/defaultLayer.jpg',
+                meta: {
+                    title: '自动旋转',
+                    keywords: 'cesium.js,自动旋转',
+                    description: 'cesium自动旋转'
+                }
+            },
+            {
+                id: 'cesiumText',
+                name: '绘制文字',
+                author: 'g2657',
+                codeUrl: '/public/cesiumExamples/basic/cesiumText.js',
+                image: '/public/cesiumExamples/layer/defaultLayer.jpg',
+            },
             {
                 id: 'cssElement',
                 name: 'css2D元素',
@@ -229,6 +248,18 @@ export default [
                     title: 'cesium大量点',
                     keywords: 'cesium.js,cesium大量点',
                     description: 'cesium cesium大量点'
+                }
+            },
+            {
+                id: 'multPointCluster',
+                name: 'cesium大量点聚合',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/basic/multPointCluster.js',
+                image: 'https://z2586300277.github.io/three-editor/src/codes/cesiumjs/basic/multPointCluster.jpg',
+                meta: {
+                    title: 'cesium大量点聚合',
+                    keywords: 'cesium.js,cesium大量点聚合',
+                    description: 'cesium cesium大量点聚合'
                 }
             },
             {
@@ -303,6 +334,20 @@ export default [
                 author: 'z2586300277',
                 codeUrl: '/public/cesiumExamples/expand/cesiumAndThree.js',
                 image: '/public/cesiumExamples/expand/cesiumAndThree.jpg',
+            },
+            {
+                id: 'echartsFlyLine',
+                name: 'echarts飞线',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/expand/echartsFlyLine.js',
+                image: 'https://z2586300277.github.io/three-editor/src/codes/cesiumjs/basic/flyCharts.jpg',
+            },
+            {
+                id: 'heatMap',
+                name: '热力图',
+                author: 'z2586300277',
+                codeUrl: '/public/cesiumExamples/expand/heatMap.js',
+                image: 'https://z2586300277.github.io/three-editor/src/codes/cesiumjs/basic/heatMap.jpg',
             }
         ]
     },

@@ -25,7 +25,7 @@ const minWGS84 = [115.23, 39.55] // 最小经纬度
 
 const maxWGS84 = [116.23, 41.55] // 最大经纬度
 
-initThree(threeBox,initCesium(cesiumBox) )
+initThree(threeBox,initCesium(cesiumBox))
 
 // 初始化Cesium
 function initCesium() {
@@ -92,6 +92,16 @@ function initThree(threeBox, viewer) {
 
         requestAnimationFrame(render)
 
+    }
+
+    window.onresize = () => {
+
+        renderer.setSize(threeBox.clientWidth, threeBox.clientHeight)
+
+        camera.aspect = threeBox.clientWidth / threeBox.clientHeight
+
+        camera.updateProjectionMatrix()
+        
     }
 
     render()

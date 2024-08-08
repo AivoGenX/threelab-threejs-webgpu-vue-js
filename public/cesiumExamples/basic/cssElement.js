@@ -19,7 +19,7 @@ Object.assign(css2dContainer.style, {
 
 })
 
-document.body.appendChild(css2dContainer)
+box.appendChild(css2dContainer)
 
 const viewer = new Cesium.Viewer(box, {
 
