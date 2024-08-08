@@ -580,6 +580,20 @@ export default [
           description: "咖啡",
         },
       },
+      {
+        id: 'flowerRain',
+        name: '花瓣雨',
+        author: 'QuarkGluonPlasma',
+        codeUrl: '/public/threeExamples/application/flowerRain.html',
+        image: '/public/threeExamples/application/flowerRain.jpg',
+      },
+      {
+        id: 'houseScene',
+        name: '第一人称房屋',
+        author: 'QuarkGluonPlasma',
+        codeUrl: '/public/threeExamples/application/houseScene.html',
+        image: '/public/threeExamples/application/houseScene.jpg'
+      }
     ],
   },
   {
