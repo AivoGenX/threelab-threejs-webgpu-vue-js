@@ -521,6 +521,21 @@ export default [
     ],
   },
   {
+    pid: "PrimitiveBody",
+    name: "图元体",
+    children: [
+      {
+        id: "3DCircle",
+        name: "扩散半球",
+        author: "giser2017",
+        codeUrl:
+          "/public/threeTutorial/basic/3DCircle.html",
+        image:
+          "/public/threeTutorial/basic/3DCircle.png",
+      },
+    ],
+  },
+  {
     pid: "application",
     name: "应用场景",
     children: [
