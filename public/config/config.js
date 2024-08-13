@@ -5,7 +5,7 @@ import threeExamples from "./three-examples.js";
 import threeCesiumAuthors from "./author.js";
 
 window.THREE_CESIUM_NAVIGATION = [
-  { name: "Three.js扩展[r166]", examples: threeExamples },
+  { name: "Three.js扩展[r167]", examples: threeExamples },
   // { name: "Three.js教程[r166]", examples: threeTutorial },
   // { name: "Three.js符号库", examples: threeSymbol },
   { name: "Cesium.js案例[1.119]", examples: cesiumExamples },
