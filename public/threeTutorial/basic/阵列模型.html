@@ -7,11 +7,11 @@
     <!-- 这里可以添加CSS样式文件 -->
   </head>
   <body>
-     <script type="importmap">
+    <script type="importmap">
       {
         "imports": {
-          "three": "https://threejs.org/build/three.module.js",
-          "three/addons/": "https://threejs.org/examples/jsm/"
+          "three": "/threejs/build/three.module.js",
+          "three/addons/": "/threejs/examples/jsm/"
         }
       }
     </script>
@@ -44,7 +44,7 @@
 
       // 渲染器
       const renderer = new THREE.WebGLRenderer(); // 创建渲染器
-      
+
       renderer.setSize(window.innerWidth, window.innerHeight); //渲染区域
       renderer.render(scene, camera); //执行渲染
       document.body.appendChild(renderer.domElement);

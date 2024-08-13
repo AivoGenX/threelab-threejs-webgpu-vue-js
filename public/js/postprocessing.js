@@ -6058,7 +6058,7 @@ var DepthMaskMaterial = class extends ShaderMaterial10 {
   /**
    * The depth mode.
    *
-   * @see https://threejs.org/docs/#api/en/constants/Materials
+   * @see /threejs//docs/#api/en/constants/Materials
    * @type {DepthModes}
    */
   get depthMode() {

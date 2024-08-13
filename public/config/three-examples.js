@@ -95,12 +95,7 @@ export default [
         author: "giser2017",
         codeUrl:
           "/public/threeTutorial/basic/阵列模型.html",
-        image: "/public/threeTutorial/basic/阵列模型.png",
-        meta: {
-          title: "阵列模型",
-          keywords: "three.html,阵列模型",
-          description: "使用three.html阵列模型",
-        },
+        image: "/public/threeTutorial/basic/阵列模型.png", 
       },
       {
         id: "几何体",
