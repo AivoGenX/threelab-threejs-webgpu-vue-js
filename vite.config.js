@@ -16,10 +16,10 @@ export default defineConfig({
 
   define: {
     __SITE_URLS__: {
-      gitee: "https://gitee.com/giser2017/Web3dExamples",
+      gitee: "https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js",
 
-      github: "https://github.com/z2586300277/three-cesium-examples",
-
+      github: "https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js",
+      
       web: "http://threelab.cn/",
     },
   },

@@ -107,7 +107,7 @@ import { onMounted, shallowReactive, ref, watch } from 'vue';
 const input = ref('')
 
 const navigationRef = ref(null)
-
+const authorSum = window.THREE_CESIUM_AUTHORS.length
 function getAuthors(id) {
 
     return window.THREE_CESIUM_AUTHORS.find(i => i.id === id) || {}
