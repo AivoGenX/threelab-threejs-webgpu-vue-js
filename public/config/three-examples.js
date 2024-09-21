@@ -1,3 +1,4 @@
+import { HOST, FILE_HOST } from "./host.js";
 export default [
   {
     pid: "introduction",
@@ -19,8 +20,7 @@ export default [
         id: "辅助线",
         name: "辅助线",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/辅助线.html",
+        codeUrl: "/public/threeTutorial/basic/辅助线.html",
         image: "/public/threeTutorial/basic/辅助线.png",
         meta: {
           title: "辅助线",
@@ -44,8 +44,7 @@ export default [
         id: "相机控件",
         name: "相机控件",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/相机控件.html",
+        codeUrl: "/public/threeTutorial/basic/相机控件.html",
         image: "/public/threeTutorial/basic/相机控件.png",
         meta: {
           title: "相机控件",
@@ -93,16 +92,14 @@ export default [
         id: "阵列模型",
         name: "阵列模型",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/阵列模型.html",
-        image: "/public/threeTutorial/basic/阵列模型.png", 
+        codeUrl: "/public/threeTutorial/basic/阵列模型.html",
+        image: "/public/threeTutorial/basic/阵列模型.png",
       },
       {
         id: "几何体",
         name: "几何体",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/几何体.html",
+        codeUrl: "/public/threeTutorial/basic/几何体.html",
         image: "/public/threeTutorial/basic/几何体.png",
         meta: {
           title: "几何体",
@@ -154,10 +151,8 @@ export default [
         name: "旋转、缩放、平移几何体",
         name_en: "旋转、缩放、平移几何体",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/旋转、缩放、平移几何体.html",
-        image:
-          "/public/threeTutorial/basic/旋转、缩放、平移几何体.png",
+        codeUrl: "/public/threeTutorial/basic/旋转、缩放、平移几何体.html",
+        image: "/public/threeTutorial/basic/旋转、缩放、平移几何体.png",
         meta: {
           title: "旋转、缩放、平移几何体",
           keywords: "three.html,旋转缩放平移几何体",
@@ -169,10 +164,8 @@ export default [
         name: "自带几何体顶点",
         name_en: "自带几何体顶点",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/自带几何体顶点.html",
-        image:
-          "/public/threeTutorial/basic/自带几何体顶点.png",
+        codeUrl: "/public/threeTutorial/basic/自带几何体顶点.html",
+        image: "/public/threeTutorial/basic/自带几何体顶点.png",
         meta: {
           title: "自带几何体顶点",
           keywords: "three.html,自带几何体顶点",
@@ -184,8 +177,7 @@ export default [
         name: "顶点颜色",
         name_en: "顶点颜色",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/顶点颜色.html",
+        codeUrl: "/public/threeTutorial/basic/顶点颜色.html",
         image: "/public/threeTutorial/basic/顶点颜色.png",
         meta: {
           title: "顶点颜色",
@@ -203,10 +195,8 @@ export default [
         id: "modelLoad",
         name: "gltf/fbx/obj模型加载",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/modelLoad.html",
-        image:
-          "/public/threeTutorial/basic/modelLoad.jpg",
+        codeUrl: "/public/threeTutorial/basic/modelLoad.html",
+        image: "/public/threeTutorial/basic/modelLoad.jpg",
         meta: {
           title: "模型加载",
           keywords: "three.html,模型加载",
@@ -217,10 +207,8 @@ export default [
         id: "outlinePass",
         name: "轮廓光",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/outlinePass.html",
-        image:
-          "/public/threeTutorial/basic/outlinePass.jpg",
+        codeUrl: "/public/threeTutorial/basic/outlinePass.html",
+        image: "/public/threeTutorial/basic/outlinePass.jpg",
         meta: {
           title: "轮廓光",
           keywords: "three.html,轮廓光",
@@ -231,10 +219,8 @@ export default [
         id: "gradientTriangle",
         name: "渐变三角形",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/gradientTriangle.html",
-        image:
-          "/public/threeTutorial/basic/gradientTriangle.jpg",
+        codeUrl: "/public/threeTutorial/basic/gradientTriangle.html",
+        image: "/public/threeTutorial/basic/gradientTriangle.jpg",
         meta: {
           title: "渐变三角形",
           keywords: "three.html,渐变三角形",
@@ -245,10 +231,8 @@ export default [
         id: "skyAndEnv",
         name: "天空盒",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/skyAndEnv.html",
-        image:
-          "/public/threeTutorial/basic/skyAndEnv.jpg",
+        codeUrl: "/public/threeTutorial/basic/skyAndEnv.html",
+        image: "/public/threeTutorial/basic/skyAndEnv.jpg",
         meta: {
           title: "天空盒",
           keywords: "three.html,天空盒",
@@ -259,10 +243,8 @@ export default [
         id: "modelAnimates",
         name: "单/多模型动画",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/modelAnimates.html",
-        image:
-          "/public/threeTutorial/basic/modelAnimates.jpg",
+        codeUrl: "/public/threeTutorial/basic/modelAnimates.html",
+        image: "/public/threeTutorial/basic/modelAnimates.jpg",
         meta: {
           title: "模型自带动画",
           keywords: "three.html,模型自带动画",
@@ -273,10 +255,8 @@ export default [
         id: "gsapAnimate",
         name: "GSAP动画",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/gsapAnimate.html",
-        image:
-          "/public/threeTutorial/basic/gsapAnimate.jpg",
+        codeUrl: "/public/threeTutorial/basic/gsapAnimate.html",
+        image: "/public/threeTutorial/basic/gsapAnimate.jpg",
         meta: {
           title: "GSAP动画",
           keywords: "three.html,GSAP动画",
@@ -287,10 +267,8 @@ export default [
         id: "cssElement",
         name: "CSS元素",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/cssElement.html",
-        image:
-          "/public/threeTutorial/basic/cssElement.jpg",
+        codeUrl: "/public/threeTutorial/basic/cssElement.html",
+        image: "/public/threeTutorial/basic/cssElement.jpg",
         meta: {
           title: "CSS元素",
           keywords: "three.html,CSS元素",
@@ -301,10 +279,8 @@ export default [
         id: "curveAnimate",
         name: "曲线动画",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/curveAnimate.html",
-        image:
-          "/public/threeTutorial/basic/curveAnimate.jpg",
+        codeUrl: "/public/threeTutorial/basic/curveAnimate.html",
+        image: "/public/threeTutorial/basic/curveAnimate.jpg",
         meta: {
           title: "曲线动画",
           keywords: "three.html,曲线动画",
@@ -315,10 +291,8 @@ export default [
         id: "transformAnimate",
         name: "Mesh变换动画",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/transformAnimate.html",
-        image:
-          "/public/threeTutorial/basic/transformAnimate.jpg",
+        codeUrl: "/public/threeTutorial/basic/transformAnimate.html",
+        image: "/public/threeTutorial/basic/transformAnimate.jpg",
         meta: {
           title: "变换动画",
           keywords: "three.html,变换动画",
@@ -329,14 +303,24 @@ export default [
         id: "screenShot",
         name: "截图",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeTutorial/basic/screenShot.html",
-        image:
-          "/public/threeTutorial/basic/screenShot.jpg",
+        codeUrl: "/public/threeTutorial/basic/screenShot.html",
+        image: "/public/threeTutorial/basic/screenShot.jpg",
         meta: {
           title: "截图",
           keywords: "three.html,截图",
           description: "使用three.html截图",
+        },
+      },
+      {
+        id: "skeletonBone",
+        name: "骨骼动画",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/basic/skeletonBone.html",
+        image: FILE_HOST + "/threeExamples/basic/skeletonBone.jpg",
+        meta: {
+          title: "骨骼动画",
+          keywords: "three.js,骨骼动画",
+          description: "使用three.js骨骼动画",
         },
       },
     ],
@@ -349,10 +333,8 @@ export default [
         id: "modelBlendShader",
         name: "模型混合着色器",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/shader/modelBlendShader.html",
-        image:
-          "/public/threeExamples/shader/modelBlendShader.jpg",
+        codeUrl: "/public/threeExamples/shader/modelBlendShader.html",
+        image: "/public/threeExamples/shader/modelBlendShader.jpg",
         meta: {
           title: "模型混合着色器",
           keywords: "three.js,模型混合着色器",
@@ -363,10 +345,8 @@ export default [
         pid: "fenceShader",
         name: "围栏着色器",
         author: "flowers-10",
-        codeUrl:
-          "/public/threeSymbol/shader/fenceShader.html",
-        image:
-          "/public/threeSymbol/shader/fenceShader.jpg",
+        codeUrl: "/public/threeSymbol/shader/fenceShader.html",
+        image: "/public/threeSymbol/shader/fenceShader.jpg",
         meta: {
           title: "围栏着色器",
           keywords: "three.js,围栏着色器",
@@ -374,13 +354,23 @@ export default [
         },
       },
       {
+        id: "fenceWall",
+        name: "围墙着色器",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/shader/fenceWall.html",
+        image: HOST + "/threeExamples/shader/fenceWall.jpg",
+        meta: {
+          title: "围墙着色器",
+          keywords: "three.js,围墙着色器",
+          description: "使用three.js围墙着色器",
+        },
+      },
+      {
         id: "cityMoveLight",
         name: "智慧城市扫光",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/shader/cityMoveLight.html",
-        image:
-          "/public/threeExamples/shader/cityMoveLight.jpg",
+        codeUrl: "/public/threeExamples/shader/cityMoveLight.html",
+        image: "/public/threeExamples/shader/cityMoveLight.jpg",
         meta: {
           title: "智慧城市扫光",
           keywords: "three.js,智慧城市扫光",
@@ -391,10 +381,8 @@ export default [
         id: "videoShader",
         name: "视频着色器",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/shader/videoShader.html",
-        image:
-          "/public/threeExamples/shader/videoShader.jpg",
+        codeUrl: "/public/threeExamples/shader/videoShader.html",
+        image: "/public/threeExamples/shader/videoShader.jpg",
         meta: {
           title: "视频着色器",
           keywords: "three.js,视频着色器",
@@ -405,10 +393,8 @@ export default [
         id: "steamWaveSun",
         name: "蒸汽波太阳",
         author: "xzw199509",
-        codeUrl:
-          "/public/threeExamples/shader/steamWaveSun.html",
-        image:
-          "/public/threeExamples/shader/steamWaveSun.jpg",
+        codeUrl: "/public/threeExamples/shader/steamWaveSun.html",
+        image: "/public/threeExamples/shader/steamWaveSun.jpg",
         meta: {
           title: "蒸汽波太阳",
           keywords: "three.js,蒸汽波太阳",
@@ -419,10 +405,8 @@ export default [
         id: "cobwebBox",
         name: "蛛网箱子",
         author: "xzw199509",
-        codeUrl:
-          "/public/threeExamples/shader/cobwebBox.html",
-        image:
-          "/public/threeExamples/shader/cobwebBox.jpg",
+        codeUrl: "/public/threeExamples/shader/cobwebBox.html",
+        image: "/public/threeExamples/shader/cobwebBox.jpg",
         meta: {
           title: "蛛网箱子",
           keywords: "three.js,蛛网箱子",
@@ -433,10 +417,8 @@ export default [
         id: "audioSolutions",
         name: "音乐可视化",
         author: "flowers-10",
-        codeUrl:
-          "/public/threeExamples/shader/audioSolutions.html",
-        image:
-          "/public/threeExamples/shader/audioSolutions.png",
+        codeUrl: "/public/threeExamples/shader/audioSolutions.html",
+        image: "/public/threeExamples/shader/audioSolutions.png",
         meta: {
           title: "音乐可视化",
           keywords: "three.js,音乐可视化",
@@ -447,10 +429,8 @@ export default [
         id: "dissolve",
         name: "溶解",
         author: "KallkaGo",
-        codeUrl:
-          "/public/threeExamples/shader/dissolve.html",
-        image:
-          "/public/threeExamples/shader/dissolve.png",
+        codeUrl: "/public/threeExamples/shader/dissolve.html",
+        image: "/public/threeExamples/shader/dissolve.png",
         meta: {
           title: "溶解",
           keywords: "three.js,溶解",
@@ -461,10 +441,8 @@ export default [
         id: "changeShaderToy",
         name: "切换ShaderToy",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/shader/changeShaderToy.html",
-        image:
-          "/public/threeExamples/shader/changeShaderToy.jpg",
+        codeUrl: "/public/threeExamples/shader/changeShaderToy.html",
+        image: "/public/threeExamples/shader/changeShaderToy.jpg",
         meta: {
           title: "切换ShaderToy",
           keywords: "three.js,切换ShaderToy",
@@ -476,8 +454,27 @@ export default [
         name: "图片抖动",
         author: "z2586300277",
         codeUrl: "/public/threeExamples/shader/imageShake.html",
-        image: "/public/threeExamples/shader/imageShake.jpg"
-      }
+        image: "/public/threeExamples/shader/imageShake.jpg",
+      },
+      {
+        id: "flowLight",
+        name: "流光",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/shader/flowLight.html",
+        image: HOST + "/threeExamples/shader/flowLight.jpg",
+        meta: {
+          title: "流光",
+          keywords: "three.js,流光",
+          description: "使用three.js流光",
+        },
+      },
+      {
+        id: "warnInfo",
+        name: "警告信息",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/shader/warnInfo.html",
+        image: HOST + "/threeExamples/shader/warnInfo.jpg",
+      },
     ],
   },
   {
@@ -488,17 +485,15 @@ export default [
         pid: "giser2017",
         name: "波浪效果",
         author: "giser2017",
-        codeUrl:
-          "/public/threeSymbol/water/waterA.html",
-        image:
-          "/public/threeSymbol/water/waterA.png",
+        codeUrl: "/public/threeSymbol/water/waterA.html",
+        image: "/public/threeSymbol/water/waterA.png",
         meta: {
           title: "水效果",
           keywords: "three.js,水效果",
           description: "使用three水效果",
         },
       },
-    ]
+    ],
   },
   {
     pid: "ShiningGlowing",
@@ -508,28 +503,37 @@ export default [
         id: "fireball",
         name: "火球效果",
         author: "giser2017",
-        codeUrl:
-          "/public/threeExamples/ShiningGlowing/fireball.html",
-        image:
-          "/public/threeExamples/ShiningGlowing/fireball.png",
+        codeUrl: "/public/threeExamples/ShiningGlowing/fireball.html",
+        image: "/public/threeExamples/ShiningGlowing/fireball.png",
       },
     ],
   },
   {
     pid: "PrimitiveBody",
-    name: "图元体",
+    name: "体图元",
     children: [
       {
         id: "3DCircle",
         name: "扩散半球",
         author: "giser2017",
-        codeUrl:
-          "/public/threeTutorial/basic/3DCircle.html",
-        image:
-          "/public/threeTutorial/basic/3DCircle.png",
+        codeUrl: "/public/threeTutorial/basic/3DCircle.html",
+        image: "/public/threeTutorial/basic/3DCircle.png",
       },
     ],
   },
+  {
+    pid: "line",
+    name: "线图元",
+    children: [
+      {
+        id: 'flyLine',
+        name: '飞线效果',
+        author: 'ecojust',
+        codeUrl: HOST + '/threeExamples/line/flyLine.html',
+        image: FILE_HOST + 'threeExamples/application/flyLine/colorful.gif',
+    },
+    ],
+  }, 
   {
     pid: "application",
     name: "应用场景",
@@ -538,10 +542,8 @@ export default [
         id: "topology",
         name: "简单3d拓扑图",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/application/topology.html",
-        image:
-          "/public/threeExamples/application/topology.jpg",
+        codeUrl: "/public/threeExamples/application/topology.html",
+        image: "/public/threeExamples/application/topology.jpg",
         meta: {
           title: "3d拓扑图",
           keywords: "three.js,3d拓扑图",
@@ -552,10 +554,8 @@ export default [
         id: "model_navigation",
         name: "模型导航",
         author: "nico",
-        codeUrl:
-          "/public/threeExamples/application/nav_mesh/nav.html",
-        image:
-          "/public/threeExamples/application/nav_mesh/nav.jpg",
+        codeUrl: "/public/threeExamples/application/nav_mesh/nav.html",
+        image: "/public/threeExamples/application/nav_mesh/nav.jpg",
         meta: {
           title: "模型导航",
           keywords: "three.js,模型导航",
@@ -566,10 +566,8 @@ export default [
         id: "textSphere",
         name: "球体文字",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/application/textSphere.html",
-        image:
-          "/public/threeExamples/application/textSphere.jpg",
+        codeUrl: "/public/threeExamples/application/textSphere.html",
+        image: "/public/threeExamples/application/textSphere.jpg",
         meta: {
           title: "球体文字",
           keywords: "three.js,球体文字",
@@ -580,10 +578,8 @@ export default [
         id: "coffeeMug",
         name: "咖啡",
         author: "kavalcio",
-        codeUrl:
-          "/public/threeExamples/application/coffeeMug.html",
-        image:
-          "/public/threeExamples/application/coffeeMug.png",
+        codeUrl: "/public/threeExamples/application/coffeeMug.html",
+        image: "/public/threeExamples/application/coffeeMug.png",
         meta: {
           title: "咖啡",
           keywords: "three.js,咖啡",
@@ -591,19 +587,40 @@ export default [
         },
       },
       {
-        id: 'flowerRain',
-        name: '花瓣雨',
-        author: 'QuarkGluonPlasma',
-        codeUrl: '/public/threeExamples/application/flowerRain.html',
-        image: '/public/threeExamples/application/flowerRain.jpg',
+        id: "flowerRain",
+        name: "花瓣雨",
+        author: "QuarkGluonPlasma",
+        codeUrl: "/public/threeExamples/application/flowerRain.html",
+        image: "/public/threeExamples/application/flowerRain.jpg",
       },
       {
-        id: 'houseScene',
-        name: '第一人称房屋',
-        author: 'QuarkGluonPlasma',
-        codeUrl: '/public/threeExamples/application/houseScene.html',
-        image: '/public/threeExamples/application/houseScene.jpg'
-      }
+        id: "houseScene",
+        name: "第一人称房屋",
+        author: "QuarkGluonPlasma",
+        codeUrl: "/public/threeExamples/application/houseScene.html",
+        image: "/public/threeExamples/application/houseScene.jpg",
+      },
+      {
+        id: "smokeAir",
+        name: "烟雾效果",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/application/smokeAir.html",
+        image: FILE_HOST + "/threeExamples/application/smokeAir.jpg",
+      },
+      {
+        id: "happyNewYear",
+        name: "新年快乐",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/application/happyNewYear.html",
+        image: HOST + "/threeExamples/application/happyNewYear.jpg",
+      },
+      {
+        id: "windMove",
+        name: "风吹动画",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/application/windMove.html",
+        image: HOST + "/threeExamples/application/windMove.jpg",
+      },
     ],
   },
   {
@@ -614,10 +631,8 @@ export default [
         id: "particleScattered",
         name: "粒子聚散",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/particle/particleScattered.html",
-        image:
-          "/public/threeExamples/particle/particleScattered.jpg",
+        codeUrl: "/public/threeExamples/particle/particleScattered.html",
+        image: "/public/threeExamples/particle/particleScattered.jpg",
         meta: {
           title: "粒子聚散",
           keywords: "three.js,粒子聚散",
@@ -628,33 +643,32 @@ export default [
         id: "RandomParticle",
         name: "随机粒子效果",
         author: "giser2017",
-        codeUrl:
-          "/public/threeExamples/particle/RandomParticle.html",
-        image:
-          "/public/threeExamples/particle/RandomParticle.png",
+        codeUrl: "/public/threeExamples/particle/RandomParticle.html",
+        image: "/public/threeExamples/particle/RandomParticle.png",
       },
       {
         id: "PlanetParticle",
         name: "粒子效果的行星",
         author: "giser2017",
-        codeUrl:
-          "/public/threeExamples/particle/PlanetParticle.html",
-        image:
-          "/public/threeExamples/particle/PlanetParticle.png",
+        codeUrl: "/public/threeExamples/particle/PlanetParticle.html",
+        image: "/public/threeExamples/particle/PlanetParticle.png",
       },
       {
         id: "bubble",
         name: "粒子效果的行星",
         author: "huan_meng_hai_yan",
-        codeUrl:
-          "/public/threeExamples/particle/bubble.html",
-        image:
-          "/public/threeExamples/particle/bubble.png",
+        codeUrl: "/public/threeExamples/particle/bubble.html",
+        image: "/public/threeExamples/particle/bubble.png",
+      },
+      {
+        id: "downSnow",
+        name: "下雪",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/particle/downSnow.html",
+        image: HOST + "/threeExamples/particle/downSnow.jpg",
       },
     ],
   },
-
-
 
   {
     pid: "expand",
@@ -664,10 +678,8 @@ export default [
         id: "loadTiles",
         name: "加载3dtiles",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/expand/loadTiles.html",
-        image:
-          "/public/threeExamples/expand/loadTiles.jpg",
+        codeUrl: "/public/threeExamples/expand/loadTiles.html",
+        image: "/public/threeExamples/expand/loadTiles.jpg",
         meta: {
           title: "three加载3dtiles",
           keywords: "three.js,3dtiles",
@@ -696,10 +708,8 @@ export default [
         id: "selectBloomPass",
         name: "辉光-postprocessing",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/effectComposer/selectBloomPass.html",
-        image:
-          "/public/threeExamples/effectComposer/selectBloomPass.jpg",
+        codeUrl: "/public/threeExamples/effectComposer/selectBloomPass.html",
+        image: "/public/threeExamples/effectComposer/selectBloomPass.jpg",
         meta: {
           title: "辉光通道",
           keywords: "three.js,辉光通道",
@@ -710,10 +720,8 @@ export default [
         id: "customMaskPass",
         name: "自定义遮罩通道",
         author: "z2586300277",
-        codeUrl:
-          "/public/threeExamples/effectComposer/customMaskPass.html",
-        image:
-          "/public/threeExamples/effectComposer/customMaskPass.jpg",
+        codeUrl: "/public/threeExamples/effectComposer/customMaskPass.html",
+        image: "/public/threeExamples/effectComposer/customMaskPass.jpg",
         meta: {
           title: "自定义遮罩通道",
           keywords: "three.js,自定义遮罩通道",
@@ -724,45 +732,41 @@ export default [
         id: "uvTransformation",
         name: "UV图像变换",
         author: "giser2017",
-        codeUrl:
-          "/public/threeExamples/effectComposer/uvTransformation.html",
-        image:
-          "/public/threeExamples/effectComposer/uvTransformation.png",
+        codeUrl: "/public/threeExamples/effectComposer/uvTransformation.html",
+        image: "/public/threeExamples/effectComposer/uvTransformation.png",
       },
       {
         id: "EdgeBlurringEffect",
         name: "边缘模糊效果",
         author: "giser2017",
-        codeUrl:
-          "/public/threeExamples/effectComposer/EdgeBlurringEffect.html",
-        image:
-          "/public/threeExamples/effectComposer/EdgeBlurringEffect.png",
+        codeUrl: "/public/threeExamples/effectComposer/EdgeBlurringEffect.html",
+        image: "/public/threeExamples/effectComposer/EdgeBlurringEffect.png",
       },
-
-
     ],
   },
   {
-    pid: 'advancedExamples',
-    name: '高级案例',
+    pid: "advancedExamples",
+    name: "高级案例",
     children: [
       {
-        id: 'taohuating',
-        name: '桃花亭',
-        author: 'huan_meng_hai_yan',
-        openUrl: 'https://z2586300277.github.io/show-site/TaoHuaTing',
-        downloadUrl: 'https://z2586300277.github.io/show-site/TaoHuaTing/TaoHuaTing.zip',
-        image: '/public/threeExamples/openSource/taohuating.jpg'
+        id: "taohuating",
+        name: "桃花亭",
+        author: "huan_meng_hai_yan",
+        openUrl: "https://z2586300277.github.io/show-site/TaoHuaTing",
+        downloadUrl:
+          "https://z2586300277.github.io/show-site/TaoHuaTing/TaoHuaTing.zip",
+        image: "/public/threeExamples/openSource/taohuating.jpg",
       },
       {
-        id: 'ziTengHua',
-        name: '紫藤花',
-        author: 'huan_meng_hai_yan',
-        openUrl: 'https://g2657.github.io/examples-server/ziTenghua/',
-        downloadUrl: 'https://g2657.github.io/examples-server/ziTenghua/ziTenghua.zip',
-        image: '/public/threeExamples/openSource/ziTengHua.jpg'
-      }
-    ]
+        id: "ziTengHua",
+        name: "紫藤花",
+        author: "huan_meng_hai_yan",
+        openUrl: "https://g2657.github.io/examples-server/ziTenghua/",
+        downloadUrl:
+          "https://g2657.github.io/examples-server/ziTenghua/ziTenghua.zip",
+        image: "/public/threeExamples/openSource/ziTengHua.jpg",
+      },
+    ],
   },
   {
     pid: "openSource",
@@ -774,17 +778,7 @@ export default [
         author: "KallkaGo",
         openUrl: "https://z2586300277.github.io/show-site/su7_demo/",
         githubUrl: "https://github.com/KallkaGo/su7-demo",
-        image:
-          "/public/threeExamples/openSource/kallkago_su7.jpg",
-      },
-      {
-        id: "z2586300277_3d_editor",
-        name: "three.js低代码编辑器",
-        author: "z2586300277",
-        openUrl: "https://z2586300277.github.io/three-editor/dist/#/editor",
-        githubUrl: "https://github.com/z2586300277/three-editor",
-        image:
-          "/public/threeExamples/openSource/z2586300277_3d_editor.jpg",
+        image: "/public/threeExamples/openSource/kallkago_su7.jpg",
       },
     ],
   },
@@ -797,40 +791,35 @@ export default [
         name: "sketchfab免费模型",
         author: "z2586300277",
         openUrl: "https://sketchfab.com/",
-        image:
-          "/public/threeExamples/tools/sketchfab.png",
+        image: "/public/threeExamples/tools/sketchfab.png",
       },
       {
         id: "gltf_report",
         name: "gltf在线draco压缩工具",
         author: "z2586300277",
         openUrl: "https://gltf.report/",
-        image:
-          "/public/threeExamples/tools/gltf_report.jpg",
+        image: "/public/threeExamples/tools/gltf_report.jpg",
       },
       {
         id: "skyBox_image",
         name: "免费hdr全景图资源",
         author: "z2586300277",
         openUrl: "https://polyhaven.com/hdris/skies",
-        image:
-          "/public/threeExamples/tools/skyBox_image.jpg",
+        image: "/public/threeExamples/tools/skyBox_image.jpg",
       },
       {
         id: "skyBox_Make",
         name: "hdr制作天空盒",
         author: "z2586300277",
         openUrl: "https://matheowis.github.io/HDRI-to-CubeMap/",
-        image:
-          "/public/threeExamples/tools/skyBox_Make.jpg",
+        image: "/public/threeExamples/tools/skyBox_Make.jpg",
       },
       {
         id: "make_json_font",
         name: "字体转Three使用json字体",
         author: "z2586300277",
         openUrl: "https://gero3.github.io/facetype.html/",
-        image:
-          "/public/threeExamples/tools/make_json_font.jpg",
+        image: "/public/threeExamples/tools/make_json_font.jpg",
       },
     ],
   },

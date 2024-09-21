@@ -20,7 +20,7 @@ const viewer = new Cesium.Viewer(box, {
 
 viewer.camera.flyTo({ destination: Cesium.Cartesian3.fromDegrees(116.46, 39.92, 8000000) }) // 设置相机位置
 
-const citys = await fetch('https://z2586300277.github.io/three-editor/dist/files/other/city.json').then(res => res.json()) // 获取城市数据
+const citys = await fetch('https://www.threelab.cn/cdn/files/json/city.json').then(res => res.json()) // 获取城市数据
 
 const updateCanvasText = createCanvasText({ dpr: 1.4 }) // 创建canvas
 

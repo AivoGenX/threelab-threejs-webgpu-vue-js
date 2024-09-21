@@ -30,7 +30,7 @@ viewer.imageryLayers.add(layer)
 
 
 // 加载geojson数据
-const dataSource = setGeoPolygon(viewer, 'https://z2586300277.github.io/three-editor/dist/files/font/guangdong.json')
+const dataSource = setGeoPolygon(viewer, 'https://www.threelab.cn/cdn/files/json/guangdong.json')
 
 // 看向geojson数据
 viewer.flyTo(dataSource)

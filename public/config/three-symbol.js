@@ -8,9 +8,9 @@ export default [
         name: "围栏着色器",
         author: "flowers-10",
         codeUrl:
-          "/public/threeSymbol/shader/fenceShader.html",
+          "/threeSymbol/shader/fenceShader.html",
         image:
-          "/public/threeSymbol/shader/fenceShader.jpg",
+          "/threeSymbol/shader/fenceShader.jpg",
         meta: {
           title: "围栏着色器",
           keywords: "three.js,围栏着色器",

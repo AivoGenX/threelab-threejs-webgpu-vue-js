@@ -1,4 +1,4 @@
-`{"src": ["https://z2586300277.github.io/3d-file-server/js/supercluster.min.js"]}`=INCLUDE_SCRIPT_PLACEHOLDER/* 注 Supercluster 依赖请自行引入  此处我为 src 引入 */
+`{"src": ["https://www.threelab.cn/cdn/js/supercluster.min.js"]}`=INCLUDE_SCRIPT_PLACEHOLDER/* 注 Supercluster 依赖请自行引入  此处我为 src 引入 */
 import * as Cesium from 'cesium'
 
 const DOM = document.getElementById('box')
@@ -23,7 +23,7 @@ viewer._cesiumWidget._creditContainer.style.display = "none"
 
 viewer.camera.setView({ destination: Cesium.Cartesian3.fromDegrees(116.3974, 39.9093, 18000000) }) // 设置视角
 
-const citys = await fetch('https://z2586300277.github.io/three-editor/dist/files/other/city.json').then(res => res.json()) // 获取城市数据
+const citys = await fetch('https://www.threelab.cn/cdn/files/json/city.json').then(res => res.json()) // 获取城市数据
 
 const points = Object.values(citys).map((val, k) => ({ type: 'Feature', pid: k + '-' + val[0] + '-' + val[1], geometry: { coordinates: val } }))
 
@@ -38,7 +38,7 @@ setClusterCollection(viewer, points, (billboards, data) => {
 
         position: Cesium.Cartesian3.fromDegrees(longitude, latitude),
 
-        image: 'https://z2586300277.github.io/three-editor/dist/site.png', // 你的图片路径
+        image: 'https://www.threelab.cn/public/files/author/z2586300277.png', // 你的图片路径
 
         scale: 0.05,
 

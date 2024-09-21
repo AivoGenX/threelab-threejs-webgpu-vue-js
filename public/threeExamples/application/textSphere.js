@@ -90,7 +90,7 @@ const material = new THREE.MeshBasicMaterial({
 const sphere = new THREE.Mesh(geometry, material);
 scene.add(sphere);
 
-const font = await new Promise((resolve) => new FontLoader().load('https://z2586300277.github.io/three-editor/dist/files/font/cn1.json', (f) => resolve(f)))
+const font = await new Promise((resolve) => new FontLoader().load('https://www.threelab.cn/cdn/files/json/cn1.json', (f) => resolve(f)))
 
 const totalCount = positions.length;
 

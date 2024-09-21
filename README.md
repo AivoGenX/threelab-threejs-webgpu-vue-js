@@ -1,13 +1,13 @@
 ## Web3D+GIS开源社区平台！
 - 跟多案例分享和教程 https://threelab.cn/
 
-- 官网预览  https://www.threelab.cn/three-cesium-examples/public/index.html
-- github 服务地址：https://AivoGenX.github.io/Web3dExamples/
+- 官网预览  https://www.threelab.cn/three-cesium-examples/index.html
+- gitee 服务地址：https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
 
 - 开发者交流 🐧QQ 2945853209 - 交流群 131995948 
 
-<img src="public/files/images/qq.jpg" width="300" height="400" alt="QQ">
-<img src="public/files/images/qqq.jpg" width="300" height="400" alt="QQ群">
+<img src="/public/files/images/qq.jpg" width="300" height="400" alt="QQ">
+<img src="/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群">
 
 ##### - 开发 如果只修改了 public 里面得内容，没修改src 内容则不需要打包, 如果需要打包手动删除 public/assets 目录
 
@@ -35,8 +35,8 @@
     id: '父级列表唯一id',
     name: '名称',
     author: '作者id',
-    codeUrl: '/public/threeExamples/basic/test.html',
-    image: '/public/threeExamples/basic/test.jpg',
+    codeUrl: '/threeExamples/basic/test.html',
+    image: '/threeExamples/basic/test.jpg',
     meta: {
         title: '此案例网站标题',
         keywords: '搜索引擎关键字',
@@ -59,11 +59,9 @@
 
 - 注： github page 搭建完成后 直接访问 如 https://xxxx.github.io/xxxx/ 下的资源文件无法显示是正常现象, 在代码中可正常获取
  
-## 🏠 js 模版方式加载
-https://github.com/z2586300277/three-cesium-examples
+## 🏠 国外镜像
+https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
 
-
-## [国内js模版方式](https://github.com/z2586300277/three-cesium-examples?tab=readme-ov-file)
-
-# [国内镜像](https://gitee.com/giser2017/Web3dExamples)
-# [国外镜像](https://github.com/AivoGenX/Web3dExamples)
+## 🏠 国内镜像
+https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
+  

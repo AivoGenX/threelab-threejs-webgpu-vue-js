@@ -13660,7 +13660,7 @@ float key(float avg)
 }
 
 // See section 9. "The bright-pass filter" of Realtime HDR Rendering
-// http://www.cg.tuwien.ac.at/research/publications/2007/Luksch_2007_RHR/Luksch_2007_RHR-RealtimeHDR%20.pdf
+// http://www.cg.tuwien.ac.at/researchations/2007/Luksch_2007_RHR/Luksch_2007_RHR-RealtimeHDR%20.pdf
 
 void main()
 {
