@@ -6,8 +6,8 @@
 
 - 开发者交流 🐧QQ 2945853209 - 交流群 131995948 
 
-<img src="/public/files/images/qq.jpg" width="300" height="400" alt="QQ">
-<img src="/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群">
+<img src="public/files/images/qq.jpg" width="300" height="400" alt="QQ">
+<img src="public/files/images/qqq.jpg" width="300" height="400" alt="QQ群">
 
 ##### - 开发 如果只修改了 public 里面得内容，没修改src 内容则不需要打包, 如果需要打包手动删除 public/assets 目录
 
