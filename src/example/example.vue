@@ -34,6 +34,25 @@
             <div class="content">
                 <div class="bar">
                     <div class="num">🍀总数：{{ sum }}</div>
+                    <!-- 贡献者数量 -->
+                    <div class="gitInfo">
+
+                        <img @click="openUrl('gitee')"
+                            src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/badge/star.svg?theme=dark"
+                            alt="Gitee stars">
+                        <img @click="openUrl('github')"
+                            src="https://img.shields.io/github/stars/AivoGenX/threelab-threejs-webgpu-vue-js?style=social"
+                            alt="GitHub stars">
+                        <img @click="openUrl('github')"
+                            :src="'https://img.shields.io/badge/' + authorSum + '人-贡献者-ff69b4'"
+                            alt="GitHub contributors">
+                        <img @click="openUrl('github')"
+                            src="https://img.shields.io/github/last-commit/AivoGenX/threelab-threejs-webgpu-vue-js"
+                            alt="GitHub last commit">
+                        <img @click="openUrl('github')"
+                            src="https://img.shields.io/github/license/AivoGenX/threelab-threejs-webgpu-vue-js"
+                            alt="GitHub license">
+                    </div>
                     <el-input v-model="input" style="max-width: 240px" placeholder="请输入内容" class="input-with-select">
                         <template #append>
                             <el-button icon="Search" />
@@ -65,8 +84,7 @@
                                             <div class="download" v-if="i.downloadUrl">
                                                 <el-popconfirm title="下载？" @confirm="() => openLink(i.downloadUrl)">
                                                     <template #reference>
-                                                        <el-link class="link"
-                                                            icon="Download"></el-link>
+                                                        <el-link class="link" icon="Download"></el-link>
                                                     </template>
                                                 </el-popconfirm>
                                             </div>
@@ -369,6 +387,7 @@ const showCode = (item, examples) => {
     img {
         cursor: pointer;
         transition: all 0.3s;
+
         &:hover {
             width: 40px;
             height: 40px;
@@ -427,6 +446,22 @@ const showCode = (item, examples) => {
     display: flex;
     align-items: center;
     font-weight: 500;
+}
+
+.gitInfo {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+    img {
+        margin: 0px 5px 0px 5px;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: rgba(0, 0, 0, 0.38) 0px 6px 12px, rgba(0, 0, 0, 0.23) 0px 6px 12px;
+        }
+    }
 }
 
 .flex-around {
