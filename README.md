@@ -1,10 +1,25 @@
+# 💎 原生Three 和 Cesium 案例 - 不断更新 - 只做开源 -
+
+##  开源不易 - ⭐ - 点星助力
+
+加入仓库一起管理 联系🐧QQ             |  🐧QQ群         
+:-------------------------:|:-------------------------:
+2945853209  |  131995948  
+
 ## Web3D+GIS开源社区平台！
 - 跟多案例分享和教程 https://threelab.cn/
 
-- 官网预览  https://www.threelab.cn/three-cesium-examples/index.html
-- gitee 服务地址：https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
+- 官网预览 https://threelab.cn/public/index.html#/example
 
-- 开发者交流 🐧QQ 2945853209 - 交流群 131995948 
+## 🌳 案例
+<img src="https://www.threelab.cn/cdn/images/3dEarth.png"  alt="酷炫地图">
+
+
+## 🏠 国内镜像
+https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
+
+## 🏠 国外镜像
+https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
 
 <img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ">
 <img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群">
@@ -59,9 +74,4 @@
 
 - 注： github page 搭建完成后 直接访问 如 https://xxxx.github.io/xxxx/ 下的资源文件无法显示是正常现象, 在代码中可正常获取
  
-## 🏠 国外镜像
-https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
 
-## 🏠 国内镜像
-https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
-  
