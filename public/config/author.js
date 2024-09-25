@@ -105,7 +105,7 @@ export default [
   },
   {
     id: 'xiaogua-bushigua',
-    name: 'xiaoguabushigua',
+    name: 'xiaogua-bushigua',
     github: 'https://github.com/xiaogua-bushigua',
     icon: 'https://avatars.githubusercontent.com/u/87176773?v=4'
   },
