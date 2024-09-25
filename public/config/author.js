@@ -91,4 +91,10 @@ export default [
     github: "https://github.com/ecojust",
     icon: "https://avatars.githubusercontent.com/u/30574854?v=4",
   },
+  {
+    id: 'RainManGO',
+    name: 'RainManGO',
+    github: 'https://github.com/RainManGO',
+    icon: 'https://avatars.githubusercontent.com/u/9261077?v=4'
+  },
 ];
