@@ -70,6 +70,40 @@ export default [
           "https://g2657.github.io/examples-server/ziTenghua/ziTenghua.zip",
         image: "/public/threeExamples/openSource/ziTengHua.jpg",
       },
+      {
+        id: "coffeeMug",
+        name: "咖啡",
+        author: "kavalcio",
+        codeUrl: "/public/threeExamples/application/coffeeMug.html",
+        image: "/public/threeExamples/application/coffeeMug.png",
+        meta: {
+          title: "咖啡",
+          keywords: "three.js,咖啡",
+          description: "咖啡",
+        },
+      },
+      {
+        id: "smokeAir",
+        name: "烟雾效果",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/application/smokeAir.html",
+        image: FILE_HOST + "/threeExamples/application/smokeAir.jpg",
+      },
+      {
+        id: "happyNewYear",
+        name: "新年快乐",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/application/happyNewYear.html",
+        image: HOST + "/threeExamples/application/happyNewYear.jpg",
+      },
+      {
+        id: "kallkago_su7",
+        name: "su7 demo",
+        author: "KallkaGo",
+        openUrl: "https://z2586300277.github.io/show-site/su7_demo/",
+        githubUrl: "https://github.com/KallkaGo/su7-demo",
+        image: "/public/threeExamples/openSource/kallkago_su7.jpg",
+      },
     ],
   },
   {
@@ -203,18 +237,7 @@ export default [
         codeUrl: "/public/threeExamples/shader/imageShake.html",
         image: "/public/threeExamples/shader/imageShake.jpg",
       },
-      {
-        id: "flowLight",
-        name: "流光",
-        author: "yjsdszz",
-        codeUrl: HOST + "/threeExamples/shader/flowLight.html",
-        image: HOST + "/threeExamples/shader/flowLight.jpg",
-        meta: {
-          title: "流光",
-          keywords: "three.js,流光",
-          description: "使用three.js流光",
-        },
-      },
+    
       {
         id: "warnInfo",
         name: "警告信息",
@@ -279,6 +302,18 @@ export default [
         codeUrl: HOST + '/threeExamples/line/flyLine.html',
         image: FILE_HOST + 'threeExamples/application/flyLine/colorful.gif',
       },
+      {
+        id: "flowLight",
+        name: "流光",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/shader/flowLight.html",
+        image: HOST + "/threeExamples/shader/flowLight.jpg",
+        meta: {
+          title: "流光",
+          keywords: "three.js,流光",
+          description: "使用three.js流光",
+        },
+      },
     ],
   },
   {
@@ -321,18 +356,7 @@ export default [
           description: "使用three球体文字",
         },
       },
-      {
-        id: "coffeeMug",
-        name: "咖啡",
-        author: "kavalcio",
-        codeUrl: "/public/threeExamples/application/coffeeMug.html",
-        image: "/public/threeExamples/application/coffeeMug.png",
-        meta: {
-          title: "咖啡",
-          keywords: "three.js,咖啡",
-          description: "咖啡",
-        },
-      },
+      
       {
         id: "flowerRain",
         name: "花瓣雨",
@@ -347,20 +371,7 @@ export default [
         codeUrl: "/public/threeExamples/application/houseScene.html",
         image: "/public/threeExamples/application/houseScene.jpg",
       },
-      {
-        id: "smokeAir",
-        name: "烟雾效果",
-        author: "yjsdszz",
-        codeUrl: HOST + "/threeExamples/application/smokeAir.html",
-        image: FILE_HOST + "/threeExamples/application/smokeAir.jpg",
-      },
-      {
-        id: "happyNewYear",
-        name: "新年快乐",
-        author: "yjsdszz",
-        codeUrl: HOST + "/threeExamples/application/happyNewYear.html",
-        image: HOST + "/threeExamples/application/happyNewYear.jpg",
-      },
+ 
       {
         id: "windMove",
         name: "风吹动画",
@@ -477,21 +488,6 @@ export default [
         author: "giser2017",
         codeUrl: "/public/threeExamples/effectComposer/EdgeBlurringEffect.html",
         image: "/public/threeExamples/effectComposer/EdgeBlurringEffect.png",
-      },
-    ],
-  },
-
-  {
-    pid: "openSource",
-    name: "开源作品",
-    children: [
-      {
-        id: "kallkago_su7",
-        name: "su7 demo",
-        author: "KallkaGo",
-        openUrl: "https://z2586300277.github.io/show-site/su7_demo/",
-        githubUrl: "https://github.com/KallkaGo/su7-demo",
-        image: "/public/threeExamples/openSource/kallkago_su7.jpg",
       },
     ],
   },
