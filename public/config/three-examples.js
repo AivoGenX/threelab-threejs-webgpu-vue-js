@@ -19,7 +19,33 @@ export default [
         openUrl: 'https://aivogenx.github.io/threeExamples/3dEarth2/',
         githubUrl: 'https://github.com/GhostCatcg/3d-earth',
         image: '/public/threeExamples/openSource/3dEarth2.jpg'
-    },
+      },
+    ],
+  },
+  {
+    pid: "geomap",
+    name: "行政区地图",
+    children: [
+      {
+        id: '3dGeoMap',
+        name: '3D地图',
+        author: 'xiaogua-bushigua',
+        githubUrl: 'https://github.com/xiaogua-bushigua/3d-geoMap',
+        openUrl: 'https://aivogenx.github.io/threeExamples/3dGeoMap',
+        image: FILE_HOST + 'images/3dGeoMap.jpg'
+      },
+      {
+        id: "map3d",
+        name: "3D地图",
+        author: "z2586300277",
+        codeUrl: "/public/threeExamples/expand/map3d.html",
+        image: "/public/threeExamples/expand/map3d.jpg",
+        meta: {
+          title: "3D地图",
+          keywords: "three.js,3D地图",
+          description: "使用three.js制作3D地图",
+        },
+      },
     ],
   },
   {
@@ -407,18 +433,7 @@ export default [
           description: "使用three加载3dtiles",
         },
       },
-      {
-        id: "map3d",
-        name: "3D地图",
-        author: "z2586300277",
-        codeUrl: "/public/threeExamples/expand/map3d.html",
-        image: "/public/threeExamples/expand/map3d.jpg",
-        meta: {
-          title: "3D地图",
-          keywords: "three.js,3D地图",
-          description: "使用three.js制作3D地图",
-        },
-      },
+      
     ],
   },
   {

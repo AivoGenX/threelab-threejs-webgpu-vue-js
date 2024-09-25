@@ -103,4 +103,10 @@ export default [
     github: 'https://github.com/GhostCatcg',
     icon: 'https://avatars.githubusercontent.com/u/33864029?v=4'
   },
+  {
+    id: 'xiaogua-bushigua',
+    name: 'xiaoguabushigua',
+    github: 'https://github.com/xiaogua-bushigua',
+    icon: 'https://avatars.githubusercontent.com/u/87176773?v=4'
+  },
 ];
