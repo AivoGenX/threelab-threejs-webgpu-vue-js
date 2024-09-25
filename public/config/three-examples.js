@@ -20,12 +20,6 @@ export default [
         githubUrl: 'https://github.com/GhostCatcg/3d-earth',
         image: '/public/threeExamples/openSource/3dEarth2.jpg'
       },
-    ],
-  },
-  {
-    pid: "geomap",
-    name: "行政区地图",
-    children: [
       {
         id: '3dGeoMap',
         name: '3D地图',
@@ -47,7 +41,7 @@ export default [
         },
       },
     ],
-  },
+  }, 
   {
     pid: "advancedExamples",
     name: "高级案例",
