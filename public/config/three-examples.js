@@ -12,6 +12,14 @@ export default [
         githubUrl: 'https://github.com/RainManGO/3d-earth',
         image: FILE_HOST + 'images/3dEarth.png'
       },
+      {
+        id: '3dEarth2',
+        name: '虚幻地球',
+        author: 'GhostCatcg',
+        openUrl: 'https://aivogenx.github.io/threeExamples/3dEarth2/',
+        githubUrl: 'https://github.com/GhostCatcg/3d-earth',
+        image: '/public/threeExamples/openSource/3dEarth2.jpg'
+    },
     ],
   },
   {

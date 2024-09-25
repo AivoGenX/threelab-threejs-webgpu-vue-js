@@ -97,4 +97,10 @@ export default [
     github: 'https://github.com/RainManGO',
     icon: 'https://avatars.githubusercontent.com/u/9261077?v=4'
   },
+  {
+    id: 'GhostCatcg',
+    name: 'GhostCatcg',
+    github: 'https://github.com/GhostCatcg',
+    icon: 'https://avatars.githubusercontent.com/u/33864029?v=4'
+  },
 ];
