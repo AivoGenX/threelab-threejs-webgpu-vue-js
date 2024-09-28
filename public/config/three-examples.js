@@ -91,6 +91,18 @@ export default [
           description: '使用three.js精灵文字'
         }
       },
+      {
+        id: 'heatmap3D',
+        name: '3D热力图',
+        author: 'treasureMoment',
+        codeUrl: HOST + '/threeExamples/expand/heatmap3D.html',
+        image: HOST + '/threeExamples/expand/heatmap3D.jpg',
+        meta: {
+            title: '3D热力图',
+            keywords: 'three.js,3D热力图',
+            description: '使用three.js制作3D热力图'
+        }
+    }
     ]
   },
   {
