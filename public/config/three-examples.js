@@ -120,6 +120,18 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'grassShader',
+        name: '草地着色器',
+        author: 'Siricee',
+        codeUrl: '/public/threeExamples/shader/grassShader.html',
+        image: '/public/threeExamples/shader/grassShader.jpg',
+        meta: {
+          title: '草地着色器',
+          keywords: 'three.js,草地着色器',
+          description: '使用three.js草地着色器'
+        }
+      },
+      {
         id: "modelBlendShader",
         name: "模型混合着色器",
         author: "z2586300277",

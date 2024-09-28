@@ -121,4 +121,10 @@ export default [
     github: 'https://github.com/193Eric',
     icon: 'https://avatars.githubusercontent.com/u/20290762?v=4'
   },
+  {
+    id: 'Siricee',
+    name: 'Liu Zijian',
+    github: 'https://github.com/Siricee',
+    icon: 'https://avatars.githubusercontent.com/u/25154957?v=4'
+  },
 ];

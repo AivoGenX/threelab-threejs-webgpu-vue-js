@@ -4,6 +4,9 @@ import threeExamples from "./three-examples.js";
 // import threeSymbol from "./three-symbol.js";
 import threeCesiumAuthors from "./author.js";
 
+import { HOST, FILE_HOST } from "./host.js";
+window.FILE_HOST=FILE_HOST;
+
 window.THREE_CESIUM_NAVIGATION = [
   { name: "Three.js扩展[r167]", examples: threeExamples },
   // { name: "Three.js教程[r166]", examples: threeTutorial },

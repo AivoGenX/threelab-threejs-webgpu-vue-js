@@ -18,7 +18,7 @@ defineExpose({
         iframeParent.value.appendChild(frame)
 
         const script = window.GET_SCRIPT(v, t)
-
+        frame.contentWindow.FILE_HOST=window.FILE_HOST
         frame.contentWindow.document.open()
         
         frame.contentWindow.document.write(script)
@@ -26,7 +26,7 @@ defineExpose({
         frame.contentWindow.document.close()
 
         frame.onload = () => iframeParent.value.childNodes.length > 1 && iframeParent.value.removeChild(iframeParent.value.childNodes[0])
-
+        
     }
 
 });
