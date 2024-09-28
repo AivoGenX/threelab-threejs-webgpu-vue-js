@@ -334,6 +334,18 @@ export default [
         codeUrl: "/public/threeTutorial/basic/3DCircle.html",
         image: "/public/threeTutorial/basic/3DCircle.png",
       },
+      {
+        id: 'wallShader',
+        name: '扩散圆墙',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/shader/wallShader.html',
+        image: HOST + '/threeExamples/shader/wallShader.jpg',
+        meta: {
+            title: '扩散圆墙',
+            keywords: 'three.js,扩散圆墙',
+            description: '使用three.js扩散圆墙'
+        }
+    },
     ],
   },
   {
