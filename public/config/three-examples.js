@@ -74,11 +74,23 @@ export default [
         codeUrl: HOST + '/threeExamples/application/codeCloud.html',
         image: HOST + '/threeExamples/application/codeCloud.jpg',
         meta: {
-            title: '代码云',
-            keywords: 'three.js,代码云',
-            description: '使用three.js代码云'
+          title: '代码云',
+          keywords: 'three.js,代码云',
+          description: '使用three.js代码云'
         }
-    },
+      },
+      {
+        id: 'spriteText',
+        name: '精灵文字',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/application/spriteText.html',
+        image: HOST + '/threeExamples/application/spriteText.jpg',
+        meta: {
+          title: '精灵文字',
+          keywords: 'three.js,精灵文字',
+          description: '使用three.js精灵文字'
+        }
+      },
     ]
   },
   {
