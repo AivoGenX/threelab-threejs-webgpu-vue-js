@@ -554,6 +554,18 @@ export default [
     name: "后期处理",
     children: [
       {
+        id: 'gaussianBlur',
+        name: '高斯模糊',
+        author: 'hafly',
+        codeUrl: HOST + '/threeExamples/shader/gaussianBlur.html',
+        image: HOST + '/threeExamples/shader/gaussianBlur.jpg',
+        meta: {
+          title: '高斯模糊',
+          keywords: 'three.js,高斯模糊',
+          description: '使用three.js高斯模糊'
+        }
+      },
+      {
         id: "selectBloomPass",
         name: "辉光-postprocessing",
         author: "z2586300277",

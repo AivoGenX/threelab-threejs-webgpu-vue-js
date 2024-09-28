@@ -140,4 +140,10 @@ export default [
     github: 'https://github.com/stonerao',
     icon: HOST + 'files/site/logo.svg'
   },
+  {
+    id: 'hafly',
+    name: 'hafly',
+    github: 'https://github.com/hafly',
+    icon: 'https://avatars.githubusercontent.com/u/13634263?v=4'
+}
 ];
