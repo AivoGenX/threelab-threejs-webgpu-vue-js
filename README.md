@@ -6,8 +6,7 @@
 :-------------------------:|:-------------------------:
 2945853209  |  131995948  
 
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群" alt="QQ" style="zoom:50%;">
+
 
 ## Web3D+GIS开源社区平台！
 - 跟多案例分享和教程 https://threelab.cn/
@@ -34,7 +33,10 @@ https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
 1.可通过 config/links 文件修改 所有的链接和 logo, 替换成自己的官网或者链接地址。
 
 2.如在 https://threelab.cn/ 部署
-
+<div>
+<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
+<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群" alt="QQ" style="zoom:50%;">
+<div>
 
 ##### - 开发 如果只修改了 public 里面得内容，没修改src 内容则不需要打包, 如果需要打包手动删除 public/assets 目录
 
