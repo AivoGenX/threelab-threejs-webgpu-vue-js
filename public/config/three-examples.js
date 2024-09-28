@@ -41,7 +41,7 @@ export default [
         },
       },
     ],
-  }, 
+  },
   {
     pid: "advancedExamples",
     name: "高级案例",
@@ -231,7 +231,7 @@ export default [
         codeUrl: "/public/threeExamples/shader/imageShake.html",
         image: "/public/threeExamples/shader/imageShake.jpg",
       },
-    
+
       {
         id: "warnInfo",
         name: "警告信息",
@@ -350,7 +350,7 @@ export default [
           description: "使用three球体文字",
         },
       },
-      
+
       {
         id: "flowerRain",
         name: "花瓣雨",
@@ -365,7 +365,7 @@ export default [
         codeUrl: "/public/threeExamples/application/houseScene.html",
         image: "/public/threeExamples/application/houseScene.jpg",
       },
- 
+
       {
         id: "windMove",
         name: "风吹动画",
@@ -379,6 +379,15 @@ export default [
     pid: "particle",
     name: "粒子",
     children: [
+      {
+        id: '3dPointsModel',
+        name: '3D点云模型',
+        author: 'youngdro',
+        openUrl: 'https://aivogenx.github.io/threeExamples/3DPoints/',
+        githubUrl: 'https://github.com/youngdro/3DPoints',
+        image:'/public/threeExamples/openSource/3dPointsModel.jpg',
+        downloadUrl: 'https://aivogenx.github.io/threeExamples/3DPoints/3DPoints.zip'
+      },
       {
         id: "particleScattered",
         name: "粒子聚散",
@@ -438,7 +447,7 @@ export default [
           description: "使用three加载3dtiles",
         },
       },
-      
+
     ],
   },
   {

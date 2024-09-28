@@ -109,4 +109,10 @@ export default [
     github: 'https://github.com/xiaogua-bushigua',
     icon: 'https://avatars.githubusercontent.com/u/87176773?v=4'
   },
+  {
+    id: 'youngdro',
+    name: 'youngdro',
+    github: 'https://github.com/youngdro',
+    icon: 'https://avatars.githubusercontent.com/u/18225656?v=4'
+  },
 ];
