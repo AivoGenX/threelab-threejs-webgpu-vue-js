@@ -9,7 +9,7 @@
 
 
 ## Web3D+GIS开源社区平台！
-- 跟多案例分享和教程 https://threelab.cn/
+- 更多多案例分享和教程 https://threelab.cn/
 
 - 官网预览 https://threelab.cn/public/index.html#/example
 
