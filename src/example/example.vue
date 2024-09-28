@@ -375,8 +375,8 @@ const showCode = (item, examples) => {
             justify-content: space-between;
 
             .image {
-                width: 190px;
-                height: 190px;
+                width: 220px;
+                height: 200px;
                 display: flex;
                 overflow: hidden;
                 justify-content: center;
