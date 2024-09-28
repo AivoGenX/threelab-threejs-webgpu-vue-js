@@ -30,6 +30,8 @@
     <script type="module">
         import * as THREE from "three";
         import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+        import { GUI } from "three/addons/libs/lil-gui.module.min.js";
+        let gui = new GUI();
         // 初始化场景、相机和渲染器
         const gl = {
             clearColor: '#122148',
@@ -185,11 +187,11 @@ float fbm(vec3 st) {
         };
 
         const textures = {
-            earthMap: new THREE.TextureLoader().load(FILE_HOST+'images/earthSample/pointsEarth/00_earthmap1k.jpg'),
-            starSprite: new THREE.TextureLoader().load(FILE_HOST+'images/earthSample/pointsEarth/circle.png'),
-            colorMap: new THREE.TextureLoader().load(FILE_HOST+'images/earthSample/pointsEarth/04_rainbow1k.jpg'),
-            elevMap: new THREE.TextureLoader().load(FILE_HOST+'images/earthSample/pointsEarth/01_earthbump1k.jpg'),
-            alphaMap: new THREE.TextureLoader().load(FILE_HOST+'images/earthSample/pointsEarth/02_earthspec1k.jpg'),
+            earthMap: new THREE.TextureLoader().load(FILE_HOST + 'images/earthSample/pointsEarth/00_earthmap1k.jpg'),
+            starSprite: new THREE.TextureLoader().load(FILE_HOST + 'images/earthSample/pointsEarth/circle.png'),
+            colorMap: new THREE.TextureLoader().load(FILE_HOST + 'images/earthSample/pointsEarth/04_rainbow1k.jpg'),
+            elevMap: new THREE.TextureLoader().load(FILE_HOST + 'images/earthSample/pointsEarth/01_earthbump1k.jpg'),
+            alphaMap: new THREE.TextureLoader().load(FILE_HOST + 'images/earthSample/pointsEarth/02_earthspec1k.jpg'),
         };
 
 
@@ -229,6 +231,30 @@ float fbm(vec3 st) {
 
         scene.add(group);
 
+
+
+        // 创建一个名为 'Debug' 的文件夹
+        let debugFolder = gui.addFolder('Debug');
+
+        // 添加颜色控制器
+        debugFolder.addColor(params, 'color').name('color').onChange((value) => {
+            wireframeMaterialRef.color.set(value);
+        });
+
+        // 添加粒子大小控制器
+        debugFolder.add(params, 'pointSize', 0.1, 10, 0.1).name('粒子大小').onChange((value) => {
+            pointsShader.uniforms.size.value = value;
+        });
+
+        // 添加海浪高度控制器
+        debugFolder.add(pointsShader.uniforms.uWaveHeight, 'value', 0.01, 0.5, 0.01).name('海浪高度').onChange((value) => {
+            pointsShader.uniforms.uWaveHeight.value = value;
+        });
+
+        // 添加海浪变化速度控制器
+        debugFolder.add(pointsShader.uniforms.uWaveSpeed, 'value', 0.01, 1, 0.01).name('海浪变化速度').onChange((value) => {
+            pointsShader.uniforms.uWaveSpeed.value = value;
+        });
 
 
         // 渲染循环
