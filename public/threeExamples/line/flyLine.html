@@ -110,7 +110,7 @@
         scene.add(axesHelper);
         var globeTextureLoader = new THREE.TextureLoader();
         globeTextureLoader.load(
-          "http://127.0.0.1:5502/threeExamples/application/flyLine/earth.jpeg",
+          FILE_HOST+ "threeExamples/application/flyLine/earth.jpeg",
           function (texture1) {
             console.log(texture1);
             var globeGgeometry = new THREE.SphereGeometry(60, 100, 100);

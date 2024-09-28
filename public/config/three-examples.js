@@ -239,18 +239,7 @@ export default [
           description: "使用three.js围墙着色器",
         },
       },
-      {
-        id: "cityMoveLight",
-        name: "智慧城市扫光",
-        author: "z2586300277",
-        codeUrl: "/public/threeExamples/shader/cityMoveLight.html",
-        image: "/public/threeExamples/shader/cityMoveLight.jpg",
-        meta: {
-          title: "智慧城市扫光",
-          keywords: "three.js,智慧城市扫光",
-          description: "使用three.智慧城市扫光",
-        },
-      },
+    
       {
         id: "videoShader",
         name: "视频着色器",
