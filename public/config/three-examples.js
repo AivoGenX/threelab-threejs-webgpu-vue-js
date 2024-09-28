@@ -120,6 +120,18 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'shaderSky',
+        name: '着色器天空',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/shader/shaderSky.html',
+        image: HOST + '/threeExamples/shader/shaderSky.jpg',
+        meta: {
+          title: '着色器天空',
+          keywords: 'three.js,着色器天空',
+          description: '使用three.js着色器天空'
+        }
+      },
+      {
         id: 'grassShader',
         name: '草地着色器',
         author: 'Siricee',
