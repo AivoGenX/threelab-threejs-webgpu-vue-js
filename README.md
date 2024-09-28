@@ -6,8 +6,8 @@
 :-------------------------:|:-------------------------:
 2945853209  |  131995948  
 
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ" style="zoom:80%; float: left;">
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群" alt="QQ" style="zoom:80%;">
+<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
+<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群" alt="QQ" style="zoom:50%;">
 
 ## Web3D+GIS开源社区平台！
 - 跟多案例分享和教程 https://threelab.cn/
