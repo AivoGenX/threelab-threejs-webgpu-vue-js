@@ -27,6 +27,13 @@ https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
 <img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ">
 <img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群">
 
+## 📦 拷贝到自己网站
+
+1.可通过 config/links 文件修改 所有的链接和 logo, 替换成自己的官网或者链接地址。
+
+2.如在 https://threelab.cn/ 部署
+
+
 ##### - 开发 如果只修改了 public 里面得内容，没修改src 内容则不需要打包, 如果需要打包手动删除 public/assets 目录
 
 1. 创作者可以在 public/config/author.js 录入你的开发者信息,然后你提交的案例关联上id 就会展示作者信息。
