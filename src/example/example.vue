@@ -5,6 +5,25 @@
                 <img class="logo" src="/files/site/logo.png" alt="logo" width="36px" height="36px">
                 <div class="top-title-text">三界® THREELAB</div>
             </div>
+            <div class="topLink">
+                <div v-for="i in links" :key="i.name" style="display: flex;align-items: center;margin: 0px 8px 0px 8px;">
+                    <el-dropdown v-if="i.children">
+                        <el-button class="btnLink" link>
+                            {{ i.name }}<el-icon class="el-icon--right"><arrow-down /></el-icon>
+                        </el-button>
+                        <template #dropdown>
+                            <el-dropdown-menu>
+                                <el-dropdown-item v-for="j in i.children">
+                                    <el-link @click="openLink(j.url)">{{ j.name }}</el-link>
+                                </el-dropdown-item>
+                            </el-dropdown-menu>
+                        </template>
+                    </el-dropdown>
+                    <el-button class="btnLink" @click="openLink(i.url)" link v-else>
+                        {{ i.name }}
+                    </el-button>
+                </div>
+            </div>
             <el-menu class="menu" style="border: none;" :default-active="currentNavigationName" mode="horizontal"
                 :ellipsis="false" active-text-color="#fff" text-color="#fff" :default-openeds="[currentNavigationName]">
                 <el-menu-item v-for="item in navigation_list" :key="item.name" :index="String(item.name)"
@@ -103,6 +122,8 @@
 <script setup>
 import { useRouter } from 'vue-router';
 import { onMounted, shallowReactive, ref, watch } from 'vue';
+
+const links = window.THREE_CESIUM_LINKS
 
 const input = ref('')
 
@@ -485,5 +506,17 @@ const showCode = (item, examples) => {
 //deep是深度选择器，表示选择所有的子孙元素
 :deep(.el-input__inner) {
     color: #071228;
+}
+.el-tooltip__trigger:first-child:focus-visible {
+    outline: unset;
+}
+
+.topLink {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.btnLink {
+    font-size: 15px;
 }
 </style>

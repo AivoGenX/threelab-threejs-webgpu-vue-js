@@ -20,6 +20,20 @@ export default [
         githubUrl: 'https://github.com/GhostCatcg/3d-earth',
         image: '/public/threeExamples/openSource/3dEarth2.jpg'
       },
+
+      {
+        id: 'pointsEarth',
+        name: '粒子地球',
+        author: 'giser2017',
+        codeUrl: HOST + '/threeExamples/earth/pointsEarth.html',
+        image: HOST + '/threeExamples/earth/pointsEarth.png',
+        meta: {
+          title: '粒子地球',
+          keywords: 'three.js,粒子地球',
+          description: '使用three.粒子地球'
+        }
+      },
+
       {
         id: '3dGeoMap',
         name: '3D地图',
@@ -187,6 +201,13 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'ringsShader',
+        name: '环彩虹着色器',
+        author: 'stonerao',
+        codeUrl: HOST + '/threeExamples/shader/ringsShader.html',
+        image: HOST + '/threeExamples/shader/ringsShader.jpg',
+      },
+      {
         id: 'shaderSky',
         name: '着色器天空',
         author: 'z2586300277',
@@ -246,7 +267,7 @@ export default [
           description: "使用three.js围墙着色器",
         },
       },
-    
+
       {
         id: "videoShader",
         name: "视频着色器",
@@ -420,7 +441,7 @@ export default [
     pid: "line",
     name: "线图元",
     children: [
-    
+
       {
         id: "flowLight",
         name: "流光",

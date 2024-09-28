@@ -5,6 +5,9 @@ import threeExamples from "./three-examples.js";
 import threeCesiumAuthors from "./author.js";
 
 import { HOST, FILE_HOST } from "./host.js";
+import threeCesiumLinks from "./links.js";
+window.THREE_CESIUM_LINKS = threeCesiumLinks;
+
 window.FILE_HOST=FILE_HOST;
 
 window.THREE_CESIUM_NAVIGATION = [
