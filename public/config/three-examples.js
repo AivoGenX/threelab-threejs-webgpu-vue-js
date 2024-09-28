@@ -358,6 +358,18 @@ export default [
           description: '使用three.雷达着色器'
         }
       },
+      {
+        id: 'ringShader',
+        name: '环形着色器',
+        author: 'stonerao',
+        codeUrl: HOST + '/threeExamples/shader/ringShader.html',
+        image: HOST + '/threeExamples/shader/ringShader.jpg',
+        meta: {
+            title: '环形着色器',
+            keywords: 'three.js,环形着色器',
+            description: '使用three.js环形着色器'
+        }
+    },
     ],
   },
   {
