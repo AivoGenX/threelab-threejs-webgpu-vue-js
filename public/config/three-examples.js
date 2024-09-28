@@ -365,11 +365,11 @@ export default [
         codeUrl: HOST + '/threeExamples/shader/ringShader.html',
         image: HOST + '/threeExamples/shader/ringShader.jpg',
         meta: {
-            title: '环形着色器',
-            keywords: 'three.js,环形着色器',
-            description: '使用three.js环形着色器'
+          title: '环形着色器',
+          keywords: 'three.js,环形着色器',
+          description: '使用three.js环形着色器'
         }
-    },
+      },
     ],
   },
   {
@@ -466,6 +466,18 @@ export default [
     pid: "particle",
     name: "粒子",
     children: [
+      {
+        id: 'imageParticle',
+        name: '颗粒图像',
+        author: 'superzay',
+        codeUrl: HOST + '/threeExamples/shader/imageParticle.html',
+        image: HOST + '/threeExamples/shader/imageParticle.jpg',
+        meta: {
+          title: '颗粒图像',
+          keywords: 'three.js,颗粒图像',
+          description: '使用three.js颗粒图像'
+        }
+      },
       {
         id: '3dPointsModel',
         name: '3D点云模型',
