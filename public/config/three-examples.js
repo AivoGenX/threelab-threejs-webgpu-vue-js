@@ -40,6 +40,13 @@ export default [
           description: "使用three.js制作3D地图",
         },
       },
+      {
+        id: 'flyLine',
+        name: '飞线效果',
+        author: 'ecojust',
+        codeUrl: HOST + '/threeExamples/line/flyLine.html',
+        image: FILE_HOST + 'threeExamples/application/flyLine/colorful.gif',
+      },
     ],
   },
   {
@@ -413,13 +420,7 @@ export default [
     pid: "line",
     name: "线图元",
     children: [
-      {
-        id: 'flyLine',
-        name: '飞线效果',
-        author: 'ecojust',
-        codeUrl: HOST + '/threeExamples/line/flyLine.html',
-        image: FILE_HOST + 'threeExamples/application/flyLine/colorful.gif',
-      },
+    
       {
         id: "flowLight",
         name: "流光",
