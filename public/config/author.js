@@ -115,4 +115,10 @@ export default [
     github: 'https://github.com/youngdro',
     icon: 'https://avatars.githubusercontent.com/u/18225656?v=4'
   },
+  {
+    id: '193Eric',
+    name: 'Eric.Li',
+    github: 'https://github.com/193Eric',
+    icon: 'https://avatars.githubusercontent.com/u/20290762?v=4'
+  },
 ];

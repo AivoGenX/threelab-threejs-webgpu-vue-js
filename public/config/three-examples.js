@@ -43,6 +43,21 @@ export default [
     ],
   },
   {
+    pid: "smartCity",
+    name: "智慧城市",
+    children: [
+      {
+        id: 'smartCity',
+        name: '智慧城市特效',
+        author: '193Eric',
+        openUrl: ' https://aivogenx.github.io/threeExamples/smartCity/demo/',
+        githubUrl: 'https://github.com/193Eric/threejs-demo',
+        downloadUrl: 'https://aivogenx.github.io/threeExamples/smartCity/smartCity.zip',
+        image: '/public/threeExamples/openSource/smartCity.jpg'
+      },
+    ]
+  },
+  {
     pid: "advancedExamples",
     name: "高级案例",
     children: [
@@ -385,7 +400,7 @@ export default [
         author: 'youngdro',
         openUrl: 'https://aivogenx.github.io/threeExamples/3DPoints/',
         githubUrl: 'https://github.com/youngdro/3DPoints',
-        image:'/public/threeExamples/openSource/3dPointsModel.jpg',
+        image: '/public/threeExamples/openSource/3dPointsModel.jpg',
         downloadUrl: 'https://aivogenx.github.io/threeExamples/3DPoints/3DPoints.zip'
       },
       {
