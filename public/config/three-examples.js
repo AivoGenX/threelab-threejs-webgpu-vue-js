@@ -67,6 +67,18 @@ export default [
           description: '使用three.js城市线条'
         }
       },
+      {
+        id: 'codeCloud',
+        name: '代码云',
+        author: 'yiiiiiiqianyao',
+        codeUrl: HOST + '/threeExamples/application/codeCloud.html',
+        image: HOST + '/threeExamples/application/codeCloud.jpg',
+        meta: {
+            title: '代码云',
+            keywords: 'three.js,代码云',
+            description: '使用three.js代码云'
+        }
+    },
     ]
   },
   {

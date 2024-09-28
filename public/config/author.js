@@ -145,5 +145,12 @@ export default [
     name: 'hafly',
     github: 'https://github.com/hafly',
     icon: 'https://avatars.githubusercontent.com/u/13634263?v=4'
-}
+  },
+  {
+    id: 'yiiiiiiqianyao',
+    name: 'YiQianYao',
+    github: 'https://github.com/yiiiiiiqianyao',
+    icon: 'https://avatars.githubusercontent.com/u/42212176'
+  },
+
 ];
