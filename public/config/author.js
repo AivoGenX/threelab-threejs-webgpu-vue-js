@@ -134,4 +134,10 @@ export default [
     icon: HOST + '/files/site/logo.svg'
   },
 
+  {
+    id: 'stonerao',
+    name: 'stonerao',
+    github: 'https://github.com/stonerao',
+    icon: HOST + 'files/site/logo.svg'
+  },
 ];

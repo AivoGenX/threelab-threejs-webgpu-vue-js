@@ -62,11 +62,11 @@ export default [
         codeUrl: HOST + '/threeExamples/shader/cityLine.html',
         image: HOST + '/threeExamples/shader/cityLine.jpg',
         meta: {
-            title: '城市线条',
-            keywords: 'three.js,城市线条',
-            description: '使用three.js城市线条'
+          title: '城市线条',
+          keywords: 'three.js,城市线条',
+          description: '使用three.js城市线条'
         }
-    },
+      },
     ]
   },
   {
@@ -341,11 +341,23 @@ export default [
         codeUrl: HOST + '/threeExamples/shader/wallShader.html',
         image: HOST + '/threeExamples/shader/wallShader.jpg',
         meta: {
-            title: '扩散圆墙',
-            keywords: 'three.js,扩散圆墙',
-            description: '使用three.js扩散圆墙'
+          title: '扩散圆墙',
+          keywords: 'three.js,扩散圆墙',
+          description: '使用three.js扩散圆墙'
         }
-    },
+      },
+      {
+        id: 'radarShader',
+        name: '雷达着色器',
+        author: 'stonerao',
+        codeUrl: HOST + '/threeExamples/shader/radarShader.html',
+        image: HOST + '/threeExamples/shader/radarShader.jpg',
+        meta: {
+          title: '雷达着色器',
+          keywords: 'three.js,雷达着色器',
+          description: '使用three.雷达着色器'
+        }
+      },
     ],
   },
   {
