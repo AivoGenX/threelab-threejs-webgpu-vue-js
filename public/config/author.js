@@ -159,4 +159,11 @@ export default [
     github: 'https://github.com/treasureMoment',
     icon: 'https://avatars.githubusercontent.com/u/35365475?v=4'
   },
+  {
+    id: 'gitee18247670551',
+    name: '18247670551',
+    github: 'https://gitee.com/gitee18247670551',
+    icon: HOST + 'files/site/logo.svg'
+  },
+
 ];

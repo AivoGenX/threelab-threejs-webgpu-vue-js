@@ -98,11 +98,23 @@ export default [
         codeUrl: HOST + '/threeExamples/expand/heatmap3D.html',
         image: HOST + '/threeExamples/expand/heatmap3D.jpg',
         meta: {
-            title: '3D热力图',
-            keywords: 'three.js,3D热力图',
-            description: '使用three.js制作3D热力图'
+          title: '3D热力图',
+          keywords: 'three.js,3D热力图',
+          description: '使用three.js制作3D热力图'
         }
-    }
+      },
+      {
+        id: 'magicCircle',
+        name: '魔法阵',
+        author: 'gitee18247670551',
+        codeUrl: HOST + '/threeExamples/application/magicCircle.html',
+        image: HOST + '/threeExamples/application/magicCircle.jpg',
+        meta: {
+          title: '魔法阵',
+          keywords: 'three.js,魔法阵',
+          description: '使用three.js魔法阵'
+        }
+      },
     ]
   },
   {
@@ -641,6 +653,145 @@ export default [
       },
     ],
   },
+
+  {
+    pid: "basic",
+    name: "基础案例",
+    children: [
+      {
+        id: "modelLoad",
+        name: "gltf/fbx/obj模型加载",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/modelLoad.html",
+        image: "/public/threeTutorial/basic/modelLoad.jpg",
+        meta: {
+          title: "模型加载",
+          keywords: "three.html,模型加载",
+          description: "使用three.html模型加载",
+        },
+      },
+      {
+        id: "outlinePass",
+        name: "轮廓光",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/outlinePass.html",
+        image: "/public/threeTutorial/basic/outlinePass.jpg",
+        meta: {
+          title: "轮廓光",
+          keywords: "three.html,轮廓光",
+          description: "使用three轮廓光",
+        },
+      },
+      {
+        id: "gradientTriangle",
+        name: "渐变三角形",
+        author: "giser2017",
+        codeUrl: "/public/threeTutorial/basic/gradientTriangle.html",
+        image: "/public/threeTutorial/basic/gradientTriangle.jpg",
+        meta: {
+          title: "渐变三角形",
+          keywords: "three.html,渐变三角形",
+          description: "使用three.html渐变三角形",
+        },
+      },
+      {
+        id: "skyAndEnv",
+        name: "天空盒",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/skyAndEnv.html",
+        image: "/public/threeTutorial/basic/skyAndEnv.jpg",
+        meta: {
+          title: "天空盒",
+          keywords: "three.html,天空盒",
+          description: "使用three.html天空盒",
+        },
+      },
+      {
+        id: "modelAnimates",
+        name: "单/多模型动画",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/modelAnimates.html",
+        image: "/public/threeTutorial/basic/modelAnimates.jpg",
+        meta: {
+          title: "模型自带动画",
+          keywords: "three.html,模型自带动画",
+          description: "使用three播放模型自带动画",
+        },
+      },
+      {
+        id: "gsapAnimate",
+        name: "GSAP动画",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/gsapAnimate.html",
+        image: "/public/threeTutorial/basic/gsapAnimate.jpg",
+        meta: {
+          title: "GSAP动画",
+          keywords: "three.html,GSAP动画",
+          description: "使用three.html GSAP动画",
+        },
+      },
+      {
+        id: "cssElement",
+        name: "CSS元素",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/cssElement.html",
+        image: "/public/threeTutorial/basic/cssElement.jpg",
+        meta: {
+          title: "CSS元素",
+          keywords: "three.html,CSS元素",
+          description: "使用three.html CSS元素",
+        },
+      },
+      {
+        id: "curveAnimate",
+        name: "曲线动画",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/curveAnimate.html",
+        image: "/public/threeTutorial/basic/curveAnimate.jpg",
+        meta: {
+          title: "曲线动画",
+          keywords: "three.html,曲线动画",
+          description: "使用three.html曲线动画",
+        },
+      },
+      {
+        id: "transformAnimate",
+        name: "Mesh变换动画",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/transformAnimate.html",
+        image: "/public/threeTutorial/basic/transformAnimate.jpg",
+        meta: {
+          title: "变换动画",
+          keywords: "three.html,变换动画",
+          description: "使用three.html变换动画",
+        },
+      },
+      {
+        id: "screenShot",
+        name: "截图",
+        author: "z2586300277",
+        codeUrl: "/public/threeTutorial/basic/screenShot.html",
+        image: "/public/threeTutorial/basic/screenShot.jpg",
+        meta: {
+          title: "截图",
+          keywords: "three.html,截图",
+          description: "使用three.html截图",
+        },
+      },
+      {
+        id: "skeletonBone",
+        name: "骨骼动画",
+        author: "yjsdszz",
+        codeUrl: HOST + "/threeExamples/basic/skeletonBone.html",
+        image: FILE_HOST + "/threeExamples/basic/skeletonBone.jpg",
+        meta: {
+          title: "骨骼动画",
+          keywords: "three.js,骨骼动画",
+          description: "使用three.js骨骼动画",
+        },
+      },
+    ],
+  },
   {
     pid: "introduction",
     name: "入门案例",
@@ -824,144 +975,6 @@ export default [
           title: "顶点颜色",
           keywords: "three.html,顶点颜色",
           description: "使用three.html顶点颜色",
-        },
-      },
-    ],
-  },
-  {
-    pid: "basic",
-    name: "基础案例",
-    children: [
-      {
-        id: "modelLoad",
-        name: "gltf/fbx/obj模型加载",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/modelLoad.html",
-        image: "/public/threeTutorial/basic/modelLoad.jpg",
-        meta: {
-          title: "模型加载",
-          keywords: "three.html,模型加载",
-          description: "使用three.html模型加载",
-        },
-      },
-      {
-        id: "outlinePass",
-        name: "轮廓光",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/outlinePass.html",
-        image: "/public/threeTutorial/basic/outlinePass.jpg",
-        meta: {
-          title: "轮廓光",
-          keywords: "three.html,轮廓光",
-          description: "使用three轮廓光",
-        },
-      },
-      {
-        id: "gradientTriangle",
-        name: "渐变三角形",
-        author: "giser2017",
-        codeUrl: "/public/threeTutorial/basic/gradientTriangle.html",
-        image: "/public/threeTutorial/basic/gradientTriangle.jpg",
-        meta: {
-          title: "渐变三角形",
-          keywords: "three.html,渐变三角形",
-          description: "使用three.html渐变三角形",
-        },
-      },
-      {
-        id: "skyAndEnv",
-        name: "天空盒",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/skyAndEnv.html",
-        image: "/public/threeTutorial/basic/skyAndEnv.jpg",
-        meta: {
-          title: "天空盒",
-          keywords: "three.html,天空盒",
-          description: "使用three.html天空盒",
-        },
-      },
-      {
-        id: "modelAnimates",
-        name: "单/多模型动画",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/modelAnimates.html",
-        image: "/public/threeTutorial/basic/modelAnimates.jpg",
-        meta: {
-          title: "模型自带动画",
-          keywords: "three.html,模型自带动画",
-          description: "使用three播放模型自带动画",
-        },
-      },
-      {
-        id: "gsapAnimate",
-        name: "GSAP动画",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/gsapAnimate.html",
-        image: "/public/threeTutorial/basic/gsapAnimate.jpg",
-        meta: {
-          title: "GSAP动画",
-          keywords: "three.html,GSAP动画",
-          description: "使用three.html GSAP动画",
-        },
-      },
-      {
-        id: "cssElement",
-        name: "CSS元素",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/cssElement.html",
-        image: "/public/threeTutorial/basic/cssElement.jpg",
-        meta: {
-          title: "CSS元素",
-          keywords: "three.html,CSS元素",
-          description: "使用three.html CSS元素",
-        },
-      },
-      {
-        id: "curveAnimate",
-        name: "曲线动画",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/curveAnimate.html",
-        image: "/public/threeTutorial/basic/curveAnimate.jpg",
-        meta: {
-          title: "曲线动画",
-          keywords: "three.html,曲线动画",
-          description: "使用three.html曲线动画",
-        },
-      },
-      {
-        id: "transformAnimate",
-        name: "Mesh变换动画",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/transformAnimate.html",
-        image: "/public/threeTutorial/basic/transformAnimate.jpg",
-        meta: {
-          title: "变换动画",
-          keywords: "three.html,变换动画",
-          description: "使用three.html变换动画",
-        },
-      },
-      {
-        id: "screenShot",
-        name: "截图",
-        author: "z2586300277",
-        codeUrl: "/public/threeTutorial/basic/screenShot.html",
-        image: "/public/threeTutorial/basic/screenShot.jpg",
-        meta: {
-          title: "截图",
-          keywords: "three.html,截图",
-          description: "使用three.html截图",
-        },
-      },
-      {
-        id: "skeletonBone",
-        name: "骨骼动画",
-        author: "yjsdszz",
-        codeUrl: HOST + "/threeExamples/basic/skeletonBone.html",
-        image: FILE_HOST + "/threeExamples/basic/skeletonBone.jpg",
-        meta: {
-          title: "骨骼动画",
-          keywords: "three.js,骨骼动画",
-          description: "使用three.js骨骼动画",
         },
       },
     ],
