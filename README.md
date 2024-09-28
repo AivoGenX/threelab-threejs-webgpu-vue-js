@@ -13,7 +13,7 @@
 
 ## 🌳 案例
 <img src="https://www.threelab.cn/cdn/images/3dEarth.png"  alt="酷炫地图">
-<img src="https://www.threelab.cn/cdn/images/screenshoot.gif"  alt="行政区效果">
+<img src="https://www.threelab.cn/cdn/images/xzq.png"  alt="行政区效果">
 
 <img src="/public/threeExamples/openSource/screenshoot.gif" alt="screenshoot" style="zoom:30%; float: left;" />
 
