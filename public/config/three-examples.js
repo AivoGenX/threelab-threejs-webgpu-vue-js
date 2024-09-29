@@ -213,6 +213,13 @@ export default [
         }
       },
       {
+        id: 'reliefImage',
+        name: '浮雕图像',
+        author: 'hafly',
+        codeUrl: HOST + '/threeExamples/shader/reliefImage.html',
+        image: HOST + '/threeExamples/shader/reliefImage.jpg',
+      },
+      {
         id: 'rasterGrid',
         name: '栅格网格',
         author: 'yjsdszz',
