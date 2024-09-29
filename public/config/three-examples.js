@@ -201,6 +201,18 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'dissolveAnimate',
+        name: '溶解动画',
+        author: 'yiiiiiiqianyao',
+        codeUrl: HOST + '/threeExamples/shader/dissolveAnimate.html',
+        image: HOST + '/threeExamples/shader/dissolveAnimate.jpg',
+        meta: {
+          title: '溶解动画',
+          keywords: 'three.js,溶解动画',
+          description: '使用three.js溶解动画'
+        }
+      },
+      {
         id: 'waveShader',
         name: '图像波动',
         author: 'gitee18247670551',
