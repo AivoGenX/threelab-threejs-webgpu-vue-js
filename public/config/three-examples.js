@@ -638,6 +638,18 @@ export default [
     name: "粒子",
     children: [
       {
+        id: 'galaxyStar',
+        name: '星系',
+        author: 'kavalcio',
+        codeUrl: HOST + '/threeExamples/particle/galaxyStar.html',
+        image: HOST + '/threeExamples/particle/galaxyStar.jpg',
+        meta: {
+          title: '星系',
+          keywords: 'three.js,星系',
+          description: '使用three.js星系'
+        }
+      },
+      {
         id: 'imageParticle',
         name: '颗粒图像',
         author: 'superzay',
