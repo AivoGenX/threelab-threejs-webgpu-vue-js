@@ -362,6 +362,18 @@ export default [
         codeUrl: HOST + "/threeExamples/shader/warnInfo.html",
         image: HOST + "/threeExamples/shader/warnInfo.jpg",
       },
+      {
+        id: 'halfCircle',
+        name: '半圆',
+        author: 'yiiiiiiqianyao',
+        codeUrl: HOST + '/threeExamples/shader/halfCircle.html',
+        image: HOST + '/threeExamples/shader/halfCircle.jpg',
+        meta: {
+            title: '半圆',
+            keywords: 'three.js,半圆',
+            description: '使用three.js半圆'
+        }
+    },
     ],
   },
   {
