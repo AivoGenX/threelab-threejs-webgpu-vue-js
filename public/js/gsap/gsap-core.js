@@ -921,7 +921,7 @@ distribute = function distribute(v) {
       il = l - 2;
 
       for (i = 1; i < l; i++) {
-        interpolators.push(interpolate(start[i - 1], start[i])); /build the interpolators up front as a performance optimization so that when the function is called many times, it can just reuse them.
+        interpolators.push(interpolate(start[i - 1], start[i])); //build the interpolators up front as a performance optimization so that when the function is called many times, it can just reuse them.
       }
 
       l--;
