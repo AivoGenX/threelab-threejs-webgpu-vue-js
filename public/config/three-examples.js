@@ -201,6 +201,18 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'rasterGrid',
+        name: '栅格网格',
+        author: 'yjsdszz',
+        codeUrl: HOST + '/threeExamples/shader/rasterGrid.html',
+        image: HOST + '/threeExamples/shader/rasterGrid.jpg',
+        meta: {
+          title: '栅格网格',
+          keywords: 'three.js,栅格网格',
+          description: '使用three.js栅格网格'
+        }
+      },
+      {
         id: 'raningSea',
         name: '波涛海浪',
         author: 'z2586300277',
@@ -387,7 +399,7 @@ export default [
         author: 'z2586300277',
         codeUrl: HOST + '/threeExamples/shader/heatmapShader.html',
         image: HOST + '/threeExamples/shader/heatmapShader.jpg',
-    },
+      },
     ],
   },
   {
