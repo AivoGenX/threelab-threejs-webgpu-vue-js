@@ -505,6 +505,18 @@ export default [
     name: "体图元",
     children: [
       {
+        id: 'pieCharts',
+        name: '3D饼图',
+        author: 'superzay',
+        codeUrl: HOST + '/threeExamples/application/pieCharts.html',
+        image: HOST + '/threeExamples/application/pieCharts.jpg',
+        meta: {
+          title: '3D饼图',
+          keywords: 'three.js,3D饼图',
+          description: '使用three.js制作3D饼图'
+        }
+      },
+      {
         id: "3DCircle",
         name: "扩散半球",
         author: "giser2017",
@@ -585,11 +597,11 @@ export default [
         codeUrl: HOST + '/threeExamples/application/diffuseLine.html',
         image: HOST + '/threeExamples/application/diffuseLine.jpg',
         meta: {
-            title: '发散飞线',
-            keywords: 'three.js,发散飞线',
-            description: '使用three.js发散飞线'
+          title: '发散飞线',
+          keywords: 'three.js,发散飞线',
+          description: '使用three.js发散飞线'
         }
-    },
+      },
     ],
   },
   {
