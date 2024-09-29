@@ -765,7 +765,13 @@ export default [
           description: "使用three加载3dtiles",
         },
       },
-
+      {
+        id: 'lineMeasure',
+        name: '测量',
+        author: 'yjsdszz',
+        codeUrl: HOST + '/threeExamples/application/lineMeasure.html',
+        image: HOST + '/threeExamples/application/lineMeasure.jpg',
+      },
     ],
   },
   {
