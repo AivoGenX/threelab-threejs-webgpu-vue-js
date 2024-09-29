@@ -16,9 +16,11 @@
 ## 🌳 案例
 <img src="https://www.threelab.cn/cdn/images/threelab.png"  alt="官网实例">
 <img src="https://www.threelab.cn/cdn/images/3dEarth.png"  alt="酷炫地图">
-<img src="https://www.threelab.cn/cdn/images/xzq.png"  alt="行政区效果">
+<img src="./preview/screenshoot.gif" style="max-width:800px;" alt="threejs.js webgl">
+<img src="https://threelab.cn/public//threeExamples/earth/pointsEarth.png"  alt="">
 
-<img src="/public/threeExamples/openSource/screenshoot.gif" alt="screenshoot" style="zoom:30%; float: left;" />
+
+ 
 
 
 ## 🏠 国内镜像
