@@ -431,6 +431,18 @@ export default [
         codeUrl: HOST + '/threeExamples/shader/heatmapShader.html',
         image: HOST + '/threeExamples/shader/heatmapShader.jpg',
       },
+      {
+        id: "shaderBlock",
+        name: "方块着色器",
+        author: "z2586300277",
+        codeUrl: HOST + "/threeExamples/shader/shaderBlock.html",
+        image: HOST + "/threeExamples/shader/shaderBlock.jpg",
+        meta: {
+            title: "方块着色器",
+            keywords: "three.js,方块着色器",
+            description: "使用three方块着色器"
+        }
+    },
     ],
   },
   {
