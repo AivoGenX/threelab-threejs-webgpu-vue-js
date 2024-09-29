@@ -206,7 +206,7 @@ export default [
         author: 'z2586300277',
         codeUrl: HOST + '/threeExamples/shader/raningSea.html',
         image: HOST + '/threeExamples/shader/raningSea.jpg',
-    },
+      },
       {
         id: 'ringsShader',
         name: '环彩虹着色器',
@@ -369,10 +369,24 @@ export default [
         codeUrl: HOST + '/threeExamples/shader/halfCircle.html',
         image: HOST + '/threeExamples/shader/halfCircle.jpg',
         meta: {
-            title: '半圆',
-            keywords: 'three.js,半圆',
-            description: '使用three.js半圆'
+          title: '半圆',
+          keywords: 'three.js,半圆',
+          description: '使用three.js半圆'
         }
+      },
+      {
+        id: 'vortexShader',
+        name: '扭曲',
+        author: 'hafly',
+        codeUrl: HOST + '/threeExamples/shader/vortexShader.html',
+        image: HOST + '/threeExamples/shader/vortexShader.jpg'
+      },
+      {
+        id: 'heatmapShader',
+        name: '热力图',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/shader/heatmapShader.html',
+        image: HOST + '/threeExamples/shader/heatmapShader.jpg',
     },
     ],
   },
@@ -643,6 +657,7 @@ export default [
           description: '使用three.js高斯模糊'
         }
       },
+
       {
         id: "selectBloomPass",
         name: "辉光-postprocessing",
