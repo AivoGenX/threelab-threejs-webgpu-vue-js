@@ -201,6 +201,18 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'waveShader',
+        name: '图像波动',
+        author: 'gitee18247670551',
+        codeUrl: HOST + '/threeExamples/shader/waveShader.html',
+        image: HOST + '/threeExamples/shader/waveShader.jpg',
+        meta: {
+          title: '图像波动',
+          keywords: 'three.js,图像波动',
+          description: '使用three.js图像波动'
+        }
+      },
+      {
         id: 'rasterGrid',
         name: '栅格网格',
         author: 'yjsdszz',
