@@ -201,6 +201,13 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'raningSea',
+        name: '波涛海浪',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/shader/raningSea.html',
+        image: HOST + '/threeExamples/shader/raningSea.jpg',
+    },
+      {
         id: 'ringsShader',
         name: '环彩虹着色器',
         author: 'stonerao',
