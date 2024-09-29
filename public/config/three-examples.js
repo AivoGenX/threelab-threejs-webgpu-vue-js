@@ -438,11 +438,35 @@ export default [
         codeUrl: HOST + "/threeExamples/shader/shaderBlock.html",
         image: HOST + "/threeExamples/shader/shaderBlock.jpg",
         meta: {
-            title: "方块着色器",
-            keywords: "three.js,方块着色器",
-            description: "使用three方块着色器"
+          title: "方块着色器",
+          keywords: "three.js,方块着色器",
+          description: "使用three方块着色器"
         }
-    },
+      },
+      {
+        id: 'whiteCloud',
+        name: '白云',
+        author: 'yjsdszz',
+        codeUrl: HOST + '/threeExamples/shader/whiteCloud.html',
+        image: HOST + '/threeExamples/shader/whiteCloud.jpg',
+        meta: {
+          title: '白云',
+          keywords: 'three.js,白云',
+          description: '使用three.js白云'
+        }
+      },
+      {
+        id: 'darkClouds',
+        name: '乌云',
+        author: 'stonerao',
+        codeUrl: HOST + '/threeExamples/shader/darkClouds.html',
+        image: HOST + '/threeExamples/shader/darkClouds.jpg',
+        meta: {
+          title: '乌云',
+          keywords: 'three.js,乌云',
+          description: '使用three.js乌云'
+        }
+      }
     ],
   },
   {
