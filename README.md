@@ -92,4 +92,93 @@ https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
 
 - 注： github page 搭建完成后 直接访问 如 https://xxxx.github.io/xxxx/ 下的资源文件无法显示是正常现象, 在代码中可正常获取
  
+## ****************************************************************************************************************************
+# 💎 Native Three and Cesium Cases - Continuously Updated - Only Open Source -
 
+## Open source is not easy - ⭐ - Star to help, your love is my motivation!! Thank you
+
+Join the warehouse to manage together Contact 🐧QQ             |  🐧QQ group
+:-------------------------:|:-------------------------:
+2945853209  |  131995948  
+
+
+## Web3D+GIS Open Source Community Platform!
+- More case sharing and tutorials https://threelab.cn/   
+
+- Official preview https://threelab.cn/public/index.html#/example   
+
+## 🌳 Cases
+<img src="https://www.threelab.cn/cdn/images/threelab.png"     style="max-width:800px;" alt="Official example">
+<img src="./preview/3dGeoMap.gif" style="max-width:800px;" alt="threejs.js webgl"> 
+<img src="./preview/pointsEarth.gif" style="max-width:800px;" alt="threejs.js webgl">   
+<img src="https://www.threelab.cn/cdn/images/3dEarth.png"     style="max-width:800px;" alt="Cool map">
+
+
+
+## 🏠 Domestic Mirror
+https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js   
+
+## 🏠 Foreign Mirror
+https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js   
+
+
+
+## 📦 Copy to your own website
+
+1. You can modify all links and logos through the config/links file, replacing them with your own official website or link address.
+
+2. If deployed at https://threelab.cn/
+<div>
+<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg"    width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
+<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg"    width="300" height="400" alt="QQ group" alt="QQ" style="zoom:50%;">
+<div>
+
+##### - Development If only the content in public is modified, and the content in src is not modified, there is no need to package. If packaging is required, manually delete the public/assets directory
+
+1. Creators can enter your developer information in public/config/author.js, and then the cases you submit that are associated with the id will display the author information.
+
+2. Put the case js into the folder in the public directory under cesiumExamples/threeExamples, such as putting test.js, test.jpg, or the directory test[test.js, test.jpg] in threeExamples/basic.
+
+3. In the config directory, find threeExamples to enter the case information, and the internal resources should correspond to the path of your js and image resources.
+
+4. Note: To ensure lightweight, the case display picture resources use - https://yasuo.xunjiepdf.com/img/     _(Custom compressed to within 4k)_
+
+5. For other dependent js, you can put module.js in the public/js directory, such as dat.gui, gasp, injection method visible in config.js
+
+6. For some resources that can be used in common, such as audio and video models, store them in the public/files directory. To ensure that the size of the repository is as small as possible, try to reduce it to within 5M.
+
+- assets packaged directory
+- config js injection and configuration case information directory
+- files audio and video model storage and other resources that can be used in common
+- js dat.gui gsap three official source code cesium official source code
+- threeExamples three.js case code directory
+- cesiumExamples cesium case code directory
+
+```js
+{
+    id: 'parent list unique id',
+    name: 'name',
+    author: 'author id',
+    codeUrl: '/threeExamples/basic/test.html',
+    image: '/threeExamples/basic/test.jpg',
+    meta: {
+        title: 'this case website title',
+        keywords: 'search engine keywords',
+        description: 'this case page description'
+    }
+}
+```
+
+## 🏠 Build your own distributed storage warehouse
+
+- The architecture design is to access the code in the form of resource requests, so resources such as codeUrl and image are not limited to being stored in this warehouse. For example, they can be stored on your own server, and then accessed via url.
+
+- Then, only the case information needs to be configured in this warehouse. You can refer to the configuration of the three case => extension function => 3D map case.
+
+- Note: Since github access restrictions will automatically prohibit http, it is recommended to also build your own github page, using github as your own resource server.
+
+- For example: Some of my distributed resources are stored in the https://github.com/AivoGenX/Web3dExamples warehouse - access service: https://AivoGenX.github.io/Web3dExamples/
+
+- github page construction => create warehouse => page process => setting => pages => Build and deployment => source (deploy from a branch) => branch selection corresponding branch
+
+- Note: After the github page is built, it is normal that the resource files under https://xxxx.github.io/xxxx/ cannot be displayed directly. They can be obtained normally in the code.

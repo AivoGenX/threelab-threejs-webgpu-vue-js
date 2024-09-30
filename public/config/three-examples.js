@@ -628,6 +628,18 @@ export default [
     name: "应用场景",
     children: [
       {
+        id: 'matrixOperation',
+        name: '矩阵操作',
+        author: 'alwxkxk',
+        codeUrl: '/public/threeExamples/application/matrixOperation.html',
+        image:'/public/threeExamples/application/matrixOperation.jpg',
+        meta: {
+          title: '矩阵操作',
+          keywords: 'three.js,矩阵操作',
+          description: '矩阵操作'
+        }
+      },
+      {
         id: "topology",
         name: "简单3d拓扑图",
         author: "z2586300277",

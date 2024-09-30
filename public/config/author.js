@@ -165,5 +165,11 @@ export default [
     github: 'https://gitee.com/gitee18247670551',
     icon: HOST + 'files/site/logo.svg'
   },
+  {
+    id: 'alwxkxk',
+    name: '生子当如哈士奇',
+    github: 'https://github.com/alwxkxk',
+    icon: 'https://avatars.githubusercontent.com/u/16029024?v=4'
+  },
 
 ];
