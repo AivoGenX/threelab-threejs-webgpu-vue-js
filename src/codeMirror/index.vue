@@ -28,7 +28,7 @@ const { query } = useRoute()
 
 const example_expand = localStorage.getItem('example_expand')
 
-const expand = ref(example_expand ? example_expand === 'true' : true)
+const expand = ref(example_expand ? example_expand === 'true' : false)
 
 const changeExpand = v => {
 

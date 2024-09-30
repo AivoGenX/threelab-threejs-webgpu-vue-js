@@ -213,6 +213,13 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'smokeCircle',
+        name: '圆泡吸附',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/shader/smokeCircle.html',
+        image: HOST + '/threeExamples/shader/smokeCircle.jpg',
+      },
+      {
         id: 'dissolveAnimate',
         name: '溶解动画',
         author: 'yiiiiiiqianyao',
