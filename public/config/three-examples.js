@@ -632,7 +632,7 @@ export default [
         name: '矩阵操作',
         author: 'alwxkxk',
         codeUrl: '/public/threeExamples/application/matrixOperation.html',
-        image:'/public/threeExamples/application/matrixOperation.jpg',
+        image: '/public/threeExamples/application/matrixOperation.jpg',
         meta: {
           title: '矩阵操作',
           keywords: 'three.js,矩阵操作',
@@ -862,7 +862,19 @@ export default [
       },
     ],
   },
-
+  {
+    pid: 'physics',
+    name: '物理应用',
+    children: [
+      {
+        id: 'physicsMesh',
+        name: '物理cannon使用',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/physics/physicsMesh.html',
+        image: HOST + '/threeExamples/physics/physicsMesh.jpg',
+      }
+    ]
+  },
   {
     pid: "basic",
     name: "基础案例",
