@@ -136,6 +136,18 @@ export default [
           description: '使用three.js魔法阵'
         }
       },
+      {
+        id: 'terrain',
+        name: '程序化地形生成',
+        author: 'nico',
+        codeUrl: HOST + '/threeExamples/application/generate_terrain.html',
+        image: HOST + '/threeExamples/application/generate_terrain.jpg',
+        meta: {
+          title: '程序化地形生成',
+          keywords: 'three.js,程序化地形生成',
+          description: '程序化地形生成'
+        }
+      },
     ]
   },
   {
