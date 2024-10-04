@@ -705,6 +705,13 @@ export default [
     name: "粒子",
     children: [
       {
+        id: 'z2586300277',
+        name: '大象',
+        author: 'z2586300277',
+        codeUrl: HOST + '/threeExamples/particle/z2586300277.html',
+        image: HOST + '/threeExamples/particle/z2586300277.jpg',
+      },
+      {
         id: 'galaxyStar',
         name: '星系',
         author: 'kavalcio',
