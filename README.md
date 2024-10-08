@@ -6,12 +6,15 @@
 :-------------------------:|:-------------------------:
 2945853209  |  131995948  
 
-## 代码编辑器
 
 ## Web3D+GIS开源社区平台！
+- 浏览地址：https://aivogenx.github.io/threelab-threejs-webgpu-vue-js/#/example
+
+- 官网预览 http://examples.threelab.cn/
+
 - 更多多案例分享和教程 https://threelab.cn/
 
-- 官网预览 https://threelab.cn/public/index.html#/example
+
 
 ## 🌳 案例
 <img src="https://www.threelab.cn/cdn/images/threelab.png"  style="max-width:800px;" alt="官网实例">
