@@ -131,7 +131,7 @@ export default [
     id: 'superzay',
     name: '赵艾阳',
     github: 'https://gitee.com/superzay',
-    icon: HOST + '/files/site/logo.png'
+    icon: HOST + 'files/site/logo.png'
   },
 
   {
