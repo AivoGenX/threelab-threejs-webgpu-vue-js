@@ -51,7 +51,7 @@ const loader = new GLTFLoader();
 
 loader.setDRACOLoader(
   new DRACOLoader().setDecoderPath(
-    "/js/three/draco/"
+    "./js/three/draco/"
   )
 );
 

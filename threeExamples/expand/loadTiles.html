@@ -12,7 +12,7 @@
         "imports": {
           "three": "https://threelab.cn/threejs/build/three.module.js",
           "three/addons/": "https://threelab.cn/threejs/examples/jsm/",
-          "3d-tiles-renderer": "/js/3dTilesRenderer/index.js"
+          "3d-tiles-renderer": "./js/3dTilesRenderer/index.js"
         }
       }
     </script>
@@ -71,7 +71,7 @@
 
       loader.setDRACOLoader(
         new DRACOLoader().setDecoderPath(
-          "/js/three/draco/"
+          "./js/three/draco/"
         )
       );
 

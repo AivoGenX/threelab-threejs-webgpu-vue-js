@@ -12,12 +12,12 @@
         "imports": {
           "three": "https://threelab.cn/threejs/build/three.module.js",
           "three/addons/": "https://threelab.cn/threejs/examples/jsm/",
-          "@recast-navigation/three": "/js/@recast-navigation/three/dist/index.mjs",
-          "@recast-navigation/core": "/js/@recast-navigation/core/dist/index.mjs",
-          "@recast-navigation/wasm": "/js/@recast-navigation/wasm/dist/recast-navigation.wasm-compat.js",
-          "@recast-navigation/generators": "/js/@recast-navigation/generators/dist/index.mjs",
-          "three.path": "/js/three.path.module.js",
-          "@tweenjs/tween.js":"/js/tween.esm.js"
+          "@recast-navigation/three": "./js/@recast-navigation/three/dist/index.mjs",
+          "@recast-navigation/core": "./js/@recast-navigation/core/dist/index.mjs",
+          "@recast-navigation/wasm": "./js/@recast-navigation/wasm/dist/recast-navigation.wasm-compat.js",
+          "@recast-navigation/generators": "./js/@recast-navigation/generators/dist/index.mjs",
+          "three.path": "./js/three.path.module.js",
+          "@tweenjs/tween.js":"./js/tween.esm.js"
         }
       }
     </script>
@@ -75,7 +75,7 @@
 
       loader.setDRACOLoader(
         new DRACOLoader().setDecoderPath(
-          "/js/three/draco/"
+          "./js/three/draco/"
         )
       );
 
