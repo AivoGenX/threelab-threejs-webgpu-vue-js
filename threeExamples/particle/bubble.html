@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <!-- <script async src="../js/es-module-shims.js"></script> -->
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/threejs/build/three.module.min.js",
+          "three/addons/": "http://threelab.cn/threejs/examples/jsm/"
+        }
+      }
+    </script>
+
+    <script type="module">
+      import * as THREE from "three";
+      import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+      import Bubble from "/threeExamples/particle/Bubble2.js";
+      import { GUI } from "three/addons/libs/lil-gui.module.min.js";
+
+      window.addEventListener("load", (e) => {
+        init();
+        addMesh();
+        render();
+      });
+
+      let scene, renderer, camera;
+      let orbit;
+
+      let gui = new GUI();
+
+      let bubble;
+
+      function init() {
+        scene = new THREE.Scene();
+        renderer = new THREE.WebGLRenderer({
+          antialias: true,
+        });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        camera = new THREE.PerspectiveCamera(
+          50,
+          window.innerWidth / window.innerHeight,
+          0.1,
+          2000
+        );
+        camera.add(new THREE.PointLight());
+        camera.position.set(10, 10, 10);
+        scene.add(camera);
+
+        orbit = new OrbitControls(camera, renderer.domElement);
+        orbit.enableDamping = true;
+
+        scene.add(new THREE.AxesHelper(10));
+      }
+
+      function addMesh() {
+        let size = 1;
+        let geometry = new THREE.BoxGeometry(size, size, size).translate(
+          0,
+          size / 2,
+          0
+        );
+        let material = new THREE.MeshBasicMaterial({
+          color: "#00ffff",
+          transparent: true,
+          opacity: 0.5,
+        });
+        let mesh = new THREE.Mesh(geometry, material);
+        scene.add(mesh);
+
+        bubble = new Bubble({
+          speed: 0.8,
+          size: 30,
+          maxHeight: 10,
+          color: "#ff0000",
+        });
+        scene.add(bubble);
+
+        let params = {
+          speed: 0.8,
+          size: 30,
+          maxHeight: 10,
+          color: "#1acdf9",
+          count: 100,
+          radius: 10,
+          rotateSpeed: 0.01,
+          backgroundColor: "#000000",
+          emitter: "cone",
+          emitterOptions: ["cone", "cylinder", "box", "sphere"],
+        };
+
+        gui
+          .add(params, "speed", -2, 2)
+          .step(0.01)
+          .onChange((v) => (bubble.speed = v));
+        gui.add(params, "size").onChange((v) => (bubble.size = v));
+        gui.add(params, "maxHeight").onChange((v) => (bubble.maxHeight = v));
+        gui.addColor(params, "color").onChange((v) => (bubble.color = v));
+        gui.add(params, "count").onChange((v) => (bubble.count = v));
+        gui.add(params, "radius").onChange((v) => (bubble.radius = v));
+        gui
+          .add(params, "rotateSpeed")
+          .onChange((v) => (bubble.rotateSpeed = v));
+        gui
+          .addColor(params, "backgroundColor")
+          .name("背景色")
+          .onChange((v) => {
+            scene.background = new THREE.Color(v);
+          });
+        gui
+          .add(params, "emitter", params.emitterOptions)
+          .name("粒子发射方式")
+          .onChange((v) => {
+            bubble.emitter = v;
+          });
+      }
+
+      function render() {
+        renderer.render(scene, camera);
+        orbit.update();
+        requestAnimationFrame(render);
+      }
+    </script>
+  </body>
+</html>

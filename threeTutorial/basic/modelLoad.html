@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>入门</title>
+    <!-- 这里可以添加CSS样式文件 -->
+  </head>
+  <body>
+     <script type="importmap">
+      {
+        "imports": {
+          "three": "http://threelab.cn/threejs/build/three.module.js",
+          "three/addons/": "http://threelab.cn/threejs/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module">
+      import * as THREE from "three"; 
+      import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+      import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+      import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
+      import { FBXLoader } from "three/addons/loaders/FBXLoader.js";
+      import { OBJLoader } from "three/addons/loaders/OBJLoader.js";
+      import { MTLLoader } from "three/addons/loaders/MTLLoader.js";
+
+      
+
+      const scene = new THREE.Scene();
+
+      const camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight,
+        0.1,
+        1000
+      );
+
+      camera.position.set(5, 5, 5);
+
+      const renderer = new THREE.WebGLRenderer({
+        antialias: true,
+        alpha: true,
+        logarithmicDepthBuffer: true,
+      });
+
+      renderer.setSize(window.innerWidth, window.innerHeight);
+
+      document.body.appendChild(renderer.domElement);
+
+      new OrbitControls(camera, renderer.domElement);
+
+      window.onresize = () => {
+        renderer.setSize(window.innerWidth, window.innerHeight);
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+
+        camera.updateProjectionMatrix();
+      };
+
+      animate();
+
+      function animate() {
+        requestAnimationFrame(animate);
+
+        renderer.render(scene, camera);
+      }
+
+      scene.add(new THREE.AmbientLight(0xffffff, 4));
+
+      scene.add(new THREE.AxesHelper(1000));
+
+      // 加载模型 gltf/ glb  draco解码器
+      const loader = new GLTFLoader();
+
+      loader.setDRACOLoader(
+        new DRACOLoader().setDecoderPath(
+          "/js/three/draco/"
+        )
+      );
+
+      loader.load(
+        "/files/model/car.glb",
+
+        (gltf) => {
+          scene.add(gltf.scene);
+        }
+      );
+
+      // 加载模型 fbx
+      new FBXLoader().load(
+        "/files/model/city.FBX",
+        (object3d) => {
+          scene.add(object3d);
+
+          object3d.scale.set(0.0005, 0.0005, 0.0005);
+        }
+      );
+
+      // 加载模型 obj/ mtl
+      const objLoader = new OBJLoader();
+
+      const mtlLoader = new MTLLoader();
+
+      mtlLoader.load(
+        "/files/model/house/house.mtl",
+        (mtl) => {
+          mtl.preload();
+
+          objLoader.setMaterials(mtl);
+
+          objLoader.load(
+            "/files/model/house/house.obj",
+
+            (obj) => {
+              scene.add(obj);
+
+              obj.position.x += 3;
+            }
+          );
+        }
+      );
+    </script>
+  </body>
+</html>
