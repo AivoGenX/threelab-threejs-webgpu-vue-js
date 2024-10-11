@@ -207,6 +207,14 @@ export default [
         githubUrl: "https://github.com/KallkaGo/su7-demo",
         image: HOST + "/threeExamples/openSource/kallkago_su7.jpg",
       },
+      {
+        id: 'su7peng',
+        name: 'SU7复刻仿真',
+        author: 'Pong-lei',
+        openUrl: 'https://aivogenx.github.io/threeExamples/su7_2/',
+        githubUrl: 'https://github.com/Pong-lei/su7_imitate',
+        image: HOST + 'threeExamples/openSource/su7peng.jpg'
+      },
     ],
   },
   {
@@ -487,7 +495,7 @@ export default [
           description: "使用three.js乌云",
         },
       },
-     
+
     ],
   },
   {

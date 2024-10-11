@@ -171,5 +171,10 @@ export default [
     github: 'https://github.com/alwxkxk',
     icon: 'https://avatars.githubusercontent.com/u/16029024?v=4'
   },
-
+  {
+    id: 'Pong-lei',
+    name: 'Pong-lei',
+    github: 'https://github.com/Pong-lei/su7_imitate',
+    icon: 'https://avatars.githubusercontent.com/u/57822607?v=4'
+  }
 ];
