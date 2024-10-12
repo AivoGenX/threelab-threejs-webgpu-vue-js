@@ -902,7 +902,7 @@ export default [
         openUrl: 'https://vasturiano.github.io/3d-force-graph/example/large-graph/',
         githubUrl: 'https://github.com/vasturiano/3d-force-graph',
         image: HOST + 'threeExamples/physics/threeForce.jpg',
-    },
+      },
       {
         id: "physicsMesh",
         name: "物理cannon使用",
