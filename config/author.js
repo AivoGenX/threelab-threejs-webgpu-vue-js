@@ -176,5 +176,12 @@ export default [
     name: 'Pong-lei',
     github: 'https://github.com/Pong-lei/su7_imitate',
     icon: 'https://avatars.githubusercontent.com/u/57822607?v=4'
-  }
+  },
+  {
+    id: 'vasturiano',
+    name: 'vasturiano',
+    github: 'https://github.com/vasturiano',
+    icon: 'https://avatars.githubusercontent.com/u/6784226?v=4'
+},
+
 ];
