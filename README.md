@@ -14,17 +14,11 @@
 
 - 更多多案例分享和教程 https://threelab.cn/
 
-
-
 ## 🌳 案例
 <img src="https://www.threelab.cn/cdn/images/threelab.png"  style="max-width:800px;" alt="官网实例">
 <img src="./preview/3dGeoMap.gif" style="max-width:800px;" alt="threejs.js webgl"> 
 <img src="./preview/pointsEarth.gif" style="max-width:800px;" alt="threejs.js webgl">   
 <img src="https://www.threelab.cn/cdn/images/3dEarth.png"  style="max-width:800px;" alt="酷炫地图">
-
-
-
- 
 
 
 ## 🏠 国内镜像
