@@ -27,8 +27,6 @@ https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
 ## 🏠 国外镜像
 https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
 
-
-
 ## 📦 拷贝到自己网站
 
 1.可通过 config/links 文件修改 所有的链接和 logo, 替换成自己的官网或者链接地址。
