@@ -24,16 +24,11 @@
 
 
 
- 
-
-
 ## 🏠 国内镜像
 https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
 
 ## 🏠 国外镜像
 https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
-
-
 
 ## 📦 拷贝到自己网站
 
