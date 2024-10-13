@@ -222,6 +222,13 @@ export default [
     name: "着色器",
     children: [
       {
+        id: 'cellShader',
+        name: '细胞',
+        author: 'stonerao',
+        codeUrl: HOST + 'threeExamples/shader/cellShader.html',
+        image: HOST + 'threeExamples/shader/cellShader.jpg',
+      },
+      {
         id: "smokeCircle",
         name: "圆泡吸附",
         author: "z2586300277",
