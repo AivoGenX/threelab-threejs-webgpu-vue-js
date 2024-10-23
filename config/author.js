@@ -1,6 +1,12 @@
 import { HOST } from './host.js';
 export default [
   {
+    id: 'AivoGenX',
+    name: 'AivoGenX',
+    github: 'https://github.com/AivoGenX',
+    icon: 'https://avatars.githubusercontent.com/u/22042727?v=4',
+  },
+  {
     id: 'z2586300277',
     name: '优雅永不过时',
     github: 'https://github.com/z2586300277',

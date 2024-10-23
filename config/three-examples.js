@@ -1,6 +1,22 @@
 import { HOST, FILE_HOST } from "./host.js";
 export default [
   {
+    pid: "products",
+    name: "合作伙伴",
+    children: [
+      {
+        id: "tool",
+        name: "地图下载器",
+        author: "AivoGenX",
+        openUrl: "https://blog.csdn.net/huhuan123456/article/details/143191390?sharetype=blogdetail&sharerId=143191390&sharerefer=PC&sharesource=huhuan123456&spm=1011.2480.3001.8118",
+        githubUrl: "https://pan.baidu.com/s/1AiFKTTknkEHkJ7t4nQ2P1g",
+        image: FILE_HOST + 'images/tool.png'
+
+      },
+      
+    ],
+  },
+  {
     pid: "3dearth",
     name: "三维地球",
     children: [
