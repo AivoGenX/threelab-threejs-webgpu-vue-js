@@ -190,6 +190,12 @@ export default [
   github: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
   icon: 'https://avatars.githubusercontent.com/u/37908056?v=4'
 },
+{
+  id: 'junhong-chen',
+  name: 'junhong-chen',
+  github: 'https://github.com/junhong-chen/MF-TurbineMonitor',
+  icon: 'https://avatars.githubusercontent.com/u/38965956?v=4'
+},
 
 
 ];

@@ -149,14 +149,7 @@ export default [
           description: "程序化地形生成",
         },
       },
-      {
-        id: 'feng_ji',
-        name: '风机',
-        author: 'fengtianxi001',
-        openUrl: 'https://fengtianxi001.github.io/MF-TurbineMonitor',
-        githubUrl: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
-        image: FILE_HOST + 'images/fengji.jpg'
-    },
+     
     ],
   },
   {
@@ -177,6 +170,14 @@ export default [
     pid: "advancedExamples",
     name: "高级案例",
     children: [
+      {
+        id: 'roaming',
+        author: 'junhong-chen',
+        name: '漫游模拟器',
+        githubUrl:'https://github.com/Junhong-Chen/roaming-simulator',
+        openUrl:'https://junhong-chen.github.io/roaming-simulator/',
+        image: HOST + 'threeExamples/openSource/roaming.jpg'
+    },
       {
         id: "taohuating",
         name: "桃花亭",
