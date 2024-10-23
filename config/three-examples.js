@@ -149,6 +149,28 @@ export default [
           description: "程序化地形生成",
         },
       },
+      {
+        id: 'feng_ji',
+        name: '风机',
+        author: 'fengtianxi001',
+        openUrl: 'https://fengtianxi001.github.io/MF-TurbineMonitor',
+        githubUrl: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
+        image: FILE_HOST + 'images/fengji.jpg'
+    },
+    ],
+  },
+  {
+    pid: "IndustryApplications",
+    name: "行业应用",
+    children: [
+      {
+        id: 'feng_ji',
+        name: '风机',
+        author: 'fengtianxi001',
+        openUrl: 'https://fengtianxi001.github.io/MF-TurbineMonitor',
+        githubUrl: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
+        image: FILE_HOST + 'images/fengji.jpg'
+    },
     ],
   },
   {

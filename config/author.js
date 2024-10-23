@@ -184,4 +184,12 @@ export default [
     icon: 'https://avatars.githubusercontent.com/u/6784226?v=4'
 },
 
+{
+  id: 'fengtianxi001',
+  name: 'fengtianxi001',
+  github: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
+  icon: 'https://avatars.githubusercontent.com/u/37908056?v=4'
+},
+
+
 ];
