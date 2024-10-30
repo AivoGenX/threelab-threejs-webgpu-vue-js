@@ -13,7 +13,7 @@ export default [
         image: FILE_HOST + 'images/tool.png'
 
       },
-      
+
     ],
   },
   {
@@ -165,7 +165,7 @@ export default [
           description: "程序化地形生成",
         },
       },
-     
+
     ],
   },
   {
@@ -179,7 +179,7 @@ export default [
         openUrl: 'https://fengtianxi001.github.io/MF-TurbineMonitor',
         githubUrl: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
         image: FILE_HOST + 'images/fengji.jpg'
-    },
+      },
     ],
   },
   {
@@ -190,10 +190,10 @@ export default [
         id: 'roaming',
         author: 'junhong-chen',
         name: '漫游模拟器',
-        githubUrl:'https://github.com/Junhong-Chen/roaming-simulator',
-        openUrl:'https://junhong-chen.github.io/roaming-simulator/',
+        githubUrl: 'https://github.com/Junhong-Chen/roaming-simulator',
+        openUrl: 'https://junhong-chen.github.io/roaming-simulator/',
         image: HOST + 'threeExamples/openSource/roaming.jpg'
-    },
+      },
       {
         id: "taohuating",
         name: "桃花亭",
@@ -547,6 +547,13 @@ export default [
         author: 'threemap',
         codeUrl: HOST + 'threeExamples/shader/heartShader.html',
         image: HOST + 'threeExamples/shader/heartShader.jpg',
+      },
+      {
+        id: 'candleShader',
+        name: '蜡烛',
+        author: 'z2586300277',
+        codeUrl: HOST + 'threeExamples/shader/candleShader.html',
+        image: HOST + 'threeExamples/shader/candleShader.jpg',
       },
     ],
   },
