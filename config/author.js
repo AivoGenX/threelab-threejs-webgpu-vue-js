@@ -183,5 +183,11 @@ export default [
     github: 'https://github.com/vasturiano',
     icon: 'https://avatars.githubusercontent.com/u/6784226?v=4'
 },
+{
+  id: 'threemap',
+  name: 'threemap',
+  github: 'https://github.com/threemap',
+  icon: 'https://avatars.githubusercontent.com/u/184769639?v=4'
+},
 
 ];

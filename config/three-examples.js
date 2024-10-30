@@ -502,7 +502,13 @@ export default [
           description: "使用three.js乌云",
         },
       },
-
+      {
+        id: 'heartShader',
+        name: '流光心',
+        author: 'threemap',
+        codeUrl: HOST + 'threeExamples/shader/heartShader.html',
+        image: HOST + 'threeExamples/shader/heartShader.jpg',
+      },
     ],
   },
   {
