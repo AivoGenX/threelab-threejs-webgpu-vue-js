@@ -1,6 +1,22 @@
 import { HOST, FILE_HOST } from "./host.js";
 export default [
   {
+    pid: "products",
+    name: "合作伙伴",
+    children: [
+      {
+        id: "tool",
+        name: "地图下载器",
+        author: "AivoGenX",
+        openUrl: "https://blog.csdn.net/huhuan123456/article/details/143191390?sharetype=blogdetail&sharerId=143191390&sharerefer=PC&sharesource=huhuan123456&spm=1011.2480.3001.8118",
+        githubUrl: "https://pan.baidu.com/s/1AiFKTTknkEHkJ7t4nQ2P1g",
+        image: FILE_HOST + 'images/tool.png'
+
+      },
+      
+    ],
+  },
+  {
     pid: "3dearth",
     name: "三维地球",
     children: [
@@ -149,12 +165,35 @@ export default [
           description: "程序化地形生成",
         },
       },
+     
+    ],
+  },
+  {
+    pid: "IndustryApplications",
+    name: "行业应用",
+    children: [
+      {
+        id: 'feng_ji',
+        name: '风机',
+        author: 'fengtianxi001',
+        openUrl: 'https://fengtianxi001.github.io/MF-TurbineMonitor',
+        githubUrl: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
+        image: FILE_HOST + 'images/fengji.jpg'
+    },
     ],
   },
   {
     pid: "advancedExamples",
     name: "高级案例",
     children: [
+      {
+        id: 'roaming',
+        author: 'junhong-chen',
+        name: '漫游模拟器',
+        githubUrl:'https://github.com/Junhong-Chen/roaming-simulator',
+        openUrl:'https://junhong-chen.github.io/roaming-simulator/',
+        image: HOST + 'threeExamples/openSource/roaming.jpg'
+    },
       {
         id: "taohuating",
         name: "桃花亭",

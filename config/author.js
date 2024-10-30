@@ -1,6 +1,12 @@
 import { HOST } from './host.js';
 export default [
   {
+    id: 'AivoGenX',
+    name: 'AivoGenX',
+    github: 'https://github.com/AivoGenX',
+    icon: 'https://avatars.githubusercontent.com/u/22042727?v=4',
+  },
+  {
     id: 'z2586300277',
     name: '优雅永不过时',
     github: 'https://github.com/z2586300277',
@@ -189,5 +195,19 @@ export default [
   github: 'https://github.com/threemap',
   icon: 'https://avatars.githubusercontent.com/u/184769639?v=4'
 },
+
+{
+  id: 'fengtianxi001',
+  name: 'fengtianxi001',
+  github: 'https://github.com/fengtianxi001/MF-TurbineMonitor',
+  icon: 'https://avatars.githubusercontent.com/u/37908056?v=4'
+},
+{
+  id: 'junhong-chen',
+  name: 'junhong-chen',
+  github: 'https://github.com/junhong-chen/MF-TurbineMonitor',
+  icon: 'https://avatars.githubusercontent.com/u/38965956?v=4'
+},
+
 
 ];
