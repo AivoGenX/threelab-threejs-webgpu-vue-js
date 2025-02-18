@@ -1,5 +1,5 @@
 import * as Cesium from 'cesium'
-import * as THREE from '/threejs/build/three.module.min.js'
+import * as THREE from './threejs/build/three.module.min.js'
 
 const cesiumBox = document.getElementById('box')
 
