@@ -8,11 +8,8 @@
 
 
 ## Web3D+GIS开源社区平台！
-- 浏览地址：https://aivogenx.github.io/threelab-threejs-webgpu-vue-js/#/example
+- 浏览地址：https://aivogenx.github.io/threejs-cesium-webgpu-vue-js/#/example
 
-- 官网预览 http://examples.threelab.cn/
-
-- 更多多案例分享和教程 https://threelab.cn/
 
 
 
@@ -24,20 +21,25 @@
 
 
 
+ 
+
+
 ## 🏠 国内镜像
-https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js
+https://gitee.com/giser2017/threejs-cesium-webgpu-vue-js
 
 ## 🏠 国外镜像
-https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
+https://github.com/AivoGenX/threejs-cesium-webgpu-vue-js
+
+
 
 ## 📦 拷贝到自己网站
 
 1.可通过 config/links 文件修改 所有的链接和 logo, 替换成自己的官网或者链接地址。
 
-2.如在 https://threelab.cn/ 部署
+2.如在  自己网站 部署
 <div>
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群" alt="QQ" style="zoom:50%;">
+<img src="https://gitee.com/giser2017/threejs-cesium-webgpu-vue-js/raw/main/public/files/images/qq.jpg" width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
+<img src="https://gitee.com/giser2017/threejs-cesium-webgpu-vue-js/raw/main/public/files/images/qqq.jpg" width="300" height="400" alt="QQ群" alt="QQ" style="zoom:50%;">
 <div>
 
 ##### - 开发 如果只修改了 public 里面得内容，没修改src 内容则不需要打包, 如果需要打包手动删除 public/assets 目录
@@ -101,9 +103,7 @@ Join the warehouse to manage together Contact 🐧QQ             |  🐧QQ group
 
 
 ## Web3D+GIS Open Source Community Platform!
-- More case sharing and tutorials https://threelab.cn/   
 
-- Official preview https://threelab.cn/public/index.html#/example   
 
 ## 🌳 Cases
 <img src="https://www.threelab.cn/cdn/images/threelab.png"     style="max-width:800px;" alt="Official example">
@@ -114,10 +114,10 @@ Join the warehouse to manage together Contact 🐧QQ             |  🐧QQ group
 
 
 ## 🏠 Domestic Mirror
-https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js   
+https://gitee.com/giser2017/threejs-cesium-webgpu-vue-js   
 
 ## 🏠 Foreign Mirror
-https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js   
+https://github.com/AivoGenX/threejs-cesium-webgpu-vue-js   
 
 
 
@@ -125,10 +125,10 @@ https://github.com/AivoGenX/threelab-threejs-webgpu-vue-js
 
 1. You can modify all links and logos through the config/links file, replacing them with your own official website or link address.
 
-2. If deployed at https://threelab.cn/
+2. If deployed at web
 <div>
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qq.jpg"    width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
-<img src="https://gitee.com/giser2017/threelab-threejs-webgpu-vue-js/raw/main/public/files/images/qqq.jpg"    width="300" height="400" alt="QQ group" alt="QQ" style="zoom:50%;">
+<img src="https://gitee.com/giser2017/threejs-cesium-webgpu-vue-js/raw/main/public/files/images/qq.jpg"    width="300" height="400" alt="QQ" style="zoom:50%; float: left;">
+<img src="https://gitee.com/giser2017/threejs-cesium-webgpu-vue-js/raw/main/public/files/images/qqq.jpg"    width="300" height="400" alt="QQ group" alt="QQ" style="zoom:50%;">
 <div>
 
 ##### - Development If only the content in public is modified, and the content in src is not modified, there is no need to package. If packaging is required, manually delete the public/assets directory

@@ -10,8 +10,8 @@
      <script type="importmap">
       {
         "imports": {
-          "three": "https://threelab.cn/threejs/build/three.module.js",
-          "three/addons/": "https://threelab.cn/threejs/examples/jsm/"
+          "three": "/threejs/build/three.module.js",
+          "three/addons/": "/threejs/examples/jsm/"
         }
       }
     </script>
@@ -46,10 +46,10 @@ function init() {
     let shader_material = new THREE.ShaderMaterial({
         uniforms: {
             dissolveMap: {
-                value: new THREE.TextureLoader().load(FILE_HOST + "threeExamples/shader/tex2.png")
+                value: new THREE.TextureLoader().load("/threeExamples/shader/tex2.png")
             },
             texture2: {
-                value: new THREE.TextureLoader().load(FILE_HOST + "threeExamples/shader/earth1.jpg")
+                value: new THREE.TextureLoader().load("/threeExamples/shader/earth1.jpg")
             },
             color: {
                 value: new THREE.Color(1, 0, 0)
